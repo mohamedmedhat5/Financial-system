@@ -6,16 +6,16 @@ from dash.dependencies import Input, Output
 
 
 salary_df = pd.read_csv(
-    r"datasets\cleaned\dataset 1\training dataset.csv"
+    r"datasets/cleaned/dataset 1/training dataset.csv"
 )
 transactions_df = pd.read_csv(
-    r"datasets\cleaned\dataset 2\training dataset.csv"
+    r"datasets/cleaned/dataset 2/training dataset.csv"
 )
 cost_df = pd.read_csv(
-    r"datasets\cleaned\dataset 3\training dataset.csv"
+    r"datasets/cleaned/dataset 3/training dataset.csv"
 )
 inflation_df = pd.read_csv(
-    r"datasets\cleaned\dataset 4\training dataset.csv"
+    r"datasets/cleaned/dataset 4/training dataset.csv"
 )
 
 
