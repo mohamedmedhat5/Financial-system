@@ -1,0 +1,44 @@
+{% extends "layout/base.html" %}
+{% block styles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/auth.css') }}">
+{% endblock %}
+{% block auth_content %}
+<main class="auth-shell">
+  <section class="auth-panel">
+    <a class="brand" href="{{ url_for('login') }}">
+      <span class="brand-mark">F</span>
+      <span>FinWise AI</span>
+    </a>
+    <div class="auth-copy">
+      <p class="eyebrow">Intelligent finance operating system</p>
+      <h1>Make every dollar visible, predictable, and purposeful.</h1>
+      <p>Track spending, forecast cash flow, and get AI-backed guidance from one polished dashboard.</p>
+    </div>
+    <div class="metric-strip">
+      <article><strong>92%</strong><span>budget clarity</span></article>
+      <article><strong>4.8x</strong><span>faster reviews</span></article>
+      <article><strong>24/7</strong><span>AI insights</span></article>
+    </div>
+  </section>
+  <section class="auth-card" aria-labelledby="loginTitle">
+    <div class="auth-heading">
+      <p class="eyebrow">Welcome back</p>
+      <h2 id="loginTitle">Log in to your account</h2>
+    </div>
+    <form class="auth-form" id="loginForm" method="post" novalidate>
+      <label>Email<input type="email" name="email" placeholder="you@example.com" required></label>
+      <label>Password<input type="password" name="password" placeholder="Enter password" minlength="8" required></label>
+      <div class="form-row">
+        <label class="check-label"><input type="checkbox" name="remember">Remember me</label>
+        <a href="#">Forgot password?</a>
+      </div>
+      <p class="form-error" data-form-error>{{ auth_error|default('') }}</p>
+      <button class="primary-button" type="submit">Log In</button>
+      <p class="switch-link">New to FinWise AI? <a href="{{ url_for('register') }}">Create account</a></p>
+    </form>
+  </section>
+</main>
+{% endblock %}
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/auth.js') }}"></script>
+{% endblock %}

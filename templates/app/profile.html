@@ -1,0 +1,23 @@
+{% extends "layout/base.html" %}
+{% block styles %}<link rel="stylesheet" href="{{ url_for('static', filename='css/profile.css') }}">{% endblock %}
+{% block content %}
+<section class="profile-layout">
+  <aside class="card profile-card"><div class="avatar">{{ user.name[:1] }}</div><h2>{{ user.name }}</h2><p class="muted">{{ user.email }}</p><button class="primary-button" data-profile-edit>Edit Profile</button></aside>
+  <section class="profile-sections">
+    <article class="card">
+      <div class="card-header"><h2>Personal Information</h2></div>
+      <form class="form-grid" method="post">
+        <input name="name" value="{{ user.name }}" required>
+        <input name="email" type="email" value="{{ user.email }}" required>
+        <input name="country" value="{{ user.country or '' }}" placeholder="Country">
+        <input name="occupation" value="{{ user.occupation_level or '' }}" placeholder="Occupation">
+        <input name="salary" type="number" step="0.01" value="{{ user.salary or 0 }}" placeholder="Monthly salary">
+        <button class="primary-button full-row" type="submit">Save Profile</button>
+      </form>
+    </article>
+    <article class="card"><div class="card-header"><h2>Financial Information</h2></div><dl class="info-list"><dt>Monthly Salary</dt><dd>{{ money(user.salary) }}</dd><dt>Country</dt><dd>{{ user.country or '' }}</dd><dt>Occupation</dt><dd>{{ user.occupation_level or '' }}</dd></dl></article>
+    <article class="card"><div class="card-header"><h2>Security</h2></div><p class="muted">Password is protected with a secure hash.</p></article>
+  </section>
+</section>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='js/profile.js') }}"></script>{% endblock %}

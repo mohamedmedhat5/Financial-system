@@ -1,0 +1,1 @@
+.recommendation-layout{display:grid;gap:18px}.ai-recommendation{background:linear-gradient(135deg,#1e293b,#2563eb);color:#fff}.ai-recommendation .eyebrow,.ai-recommendation p{color:#dbeafe}.recommendation-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.tip-card{display:grid;gap:12px}

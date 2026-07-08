@@ -1,0 +1,56 @@
+{% extends "layout/base.html" %}
+
+{% block styles %}
+
+<style>
+
+.analytics-frame{
+
+    width:100%;
+
+    height:calc(100vh - 170px);
+
+    border:none;
+
+    border-radius:18px;
+
+    background:#fff;
+
+}
+
+</style>
+
+{% endblock %}
+
+{% block content %}
+
+<section class="card">
+
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;">
+
+        <div>
+
+            <h2>Analytics Dashboard</h2>
+
+            <p>Administrator Access Granted ✅</p>
+
+        </div>
+
+        <a
+            href="{{ url_for('admin_logout') }}"
+            class="primary-button">
+
+            Lock Dashboard
+
+        </a>
+
+    </div>
+
+    <iframe
+        src="/analytics-dashboard/"
+        class="analytics-frame">
+    </iframe>
+
+</section>
+
+{% endblock %}

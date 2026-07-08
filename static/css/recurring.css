@@ -1,0 +1,1 @@
+.recurring-page{display:grid;gap:18px}.bill-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.bill-card{display:grid;gap:12px}.bill-card strong{font-size:1.8rem}.bill-actions{margin-top:8px}

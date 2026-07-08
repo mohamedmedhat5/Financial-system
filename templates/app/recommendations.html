@@ -1,0 +1,97 @@
+{% extends "layout/base.html" %}
+
+{% block styles %}
+<link rel="stylesheet"
+href="{{ url_for('static', filename='css/predictions.css') }}">
+{% endblock %}
+
+{% block content %}
+
+<article class="card prediction-card">
+
+    <div class="card-header">
+
+        <div>
+            <p class="eyebrow">AI Recommendation Engine</p>
+            <h2>Investment Recommendation</h2>
+        </div>
+
+        <span class="status good">
+            Ready
+        </span>
+
+    </div>
+
+    <p class="muted">
+        Generate a personalized investment portfolio.
+    </p>
+
+    <div class="prediction-form">
+
+        <label>Investment Amount</label>
+        <input
+            type="number"
+            id="invest-amount"
+            placeholder="100000"
+        >
+
+        <label>Duration (Years)</label>
+        <input
+            type="number"
+            id="invest-duration"
+            placeholder="5"
+        >
+
+        <label>Risk Tolerance</label>
+        <select id="invest-risk">
+
+            <option value="LOW">Low</option>
+            <option value="MEDIUM">Medium</option>
+            <option value="HIGH">High</option>
+
+        </select>
+
+        <label>Investment Goal</label>
+        <select id="invest-goal">
+
+            <option value="CAPITAL_PRESERVATION">
+                Capital Preservation
+            </option>
+
+            <option value="WEALTH_GROWTH">
+                Wealth Growth
+            </option>
+
+            <option value="PASSIVE_INCOME">
+                Passive Income
+            </option>
+
+        </select>
+
+    </div>
+
+    <button
+        id="recommend-btn"
+        class="primary-button">
+
+        Generate Portfolio
+
+    </button>
+
+    <div
+        id="recommendation-result"
+        class="prediction-result">
+
+        Waiting...
+
+    </div>
+
+</article>
+
+{% endblock %}
+
+{% block scripts %}
+
+<script src="{{ url_for('static', filename='js/recommendations.js') }}"></script>
+
+{% endblock %}

@@ -1,0 +1,43 @@
+{% extends "layout/base.html" %}
+
+{% block content %}
+
+<section class="card" style="max-width:500px;margin:auto;">
+
+    <h2>Analytics Access</h2>
+
+    <p class="muted">
+        Enter administrator password.
+    </p>
+
+    <form method="POST">
+
+        <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            required
+        >
+
+        <br><br>
+
+        <button class="primary-button">
+
+            Enter Dashboard
+
+        </button>
+
+    </form>
+
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <br>
+            <p style="color:red;">
+                {{ messages[0] }}
+            </p>
+        {% endif %}
+    {% endwith %}
+
+</section>
+
+{% endblock %}

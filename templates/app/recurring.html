@@ -1,0 +1,22 @@
+{% extends "layout/base.html" %}
+{% block styles %}<link rel="stylesheet" href="{{ url_for('static', filename='css/recurring.css') }}">{% endblock %}
+{% block content %}
+<section class="recurring-page">
+  <div class="stats-row"><article class="card stat-card"><span>Monthly Total</span><strong>{{ recurring_total }}</strong></article><article class="card stat-card"><span>Upcoming Bills</span><strong>{{ upcoming_bills }}</strong></article><article class="card stat-card"><span>Subscriptions</span><strong>{{ subscriptions }}</strong></article></div>
+  <section class="bill-grid">
+    {% for bill in recurring_bills %}
+    <article class="card bill-card" data-status="{{ 'active' if bill.is_active else 'disabled' }}">
+      <div><p class="eyebrow">{{ 'active' if bill.is_active else 'disabled' }}</p><h2>{{ bill.name }}</h2></div>
+      <strong>{{ money(bill.amount) }}</strong><p class="muted">Next payment {{ bill.next_due_date }}</p>
+      <div class="bill-actions">
+        <form method="post" action="{{ url_for('toggle_recurring', bill_id=bill.id) }}"><button class="ghost-button small">{{ 'Disable' if bill.is_active else 'Enable' }}</button></form>
+        <form method="post" action="{{ url_for('delete_recurring', bill_id=bill.id) }}"><button class="ghost-button small danger">Delete</button></form>
+      </div>
+    </article>
+    {% endfor %}
+  </section>
+</section>
+<button class="fab" type="button" data-open-modal="billModal">+</button>
+<div class="modal" id="billModal"><form class="modal-card" method="post"><div class="card-header"><h2>Recurring Expense</h2><button class="icon-button" type="button" data-close-modal>x</button></div><div class="form-grid"><input name="name" required placeholder="Bill name"><input name="amount" required type="number" step="0.01" placeholder="Amount"><input name="start_date" required type="date"><input name="next_due_date" type="date"><select name="frequency"><option>Monthly</option><option>Weekly</option><option>Yearly</option></select><select name="category" class="full-row">{% for category in categories %}<option>{{ category.name }}</option>{% endfor %}</select><label class="check-label full-row"><input type="checkbox" name="is_active" checked>Active</label></div><button class="primary-button full-row" type="submit">Save Bill</button></form></div>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='js/recurring.js') }}"></script>{% endblock %}

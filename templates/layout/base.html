@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page_title }} | FinWise AI</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/responsive.css') }}">
+
+  {% block styles %}{% endblock %}
+</head>
+
+<body class="{{ 'auth-body' if auth_page else 'app-body' }}">
+
+{% if auth_page %}
+
+    {% block auth_content %}{% endblock %}
+
+{% else %}
+
+<div class="shell">
+
+    <aside class="sidebar" id="sidebar">
+
+        <a class="brand" href="{{ url_for('dashboard') }}" aria-label="FinWise AI dashboard">
+            <span class="brand-mark">F</span>
+            <span>FinWise AI</span>
+        </a>
+
+        <nav class="side-nav" aria-label="Primary navigation">
+
+            <a class="{{ 'is-active' if active_page == 'dashboard' }}"
+               href="{{ url_for('dashboard') }}">
+                Dashboard
+            </a>
+
+            <a class="{{ 'is-active' if active_page == 'transactions' }}"
+               href="{{ url_for('transactions') }}">
+                Transactions
+            </a>
+
+            <a class="{{ 'is-active' if active_page == 'predictions' }}"
+               href="{{ url_for('predictions') }}">
+                Prediction Center
+            </a>
+
+            <a class="{{ 'is-active' if active_page == 'recommendations' }}"
+               href="{{ url_for('recommendations') }}">
+                Recommendations
+            </a>
+
+            <a class="{{ 'is-active' if active_page == 'reports' }}"
+               href="{{ url_for('reports') }}">
+                Reports
+            </a>
+
+            <!-- NEW -->
+            <a class="{{ 'is-active' if active_page == 'analytics' }}"
+               href="{{ url_for('admin_login') }}">
+                Analytics
+            </a>
+
+            <a class="{{ 'is-active' if active_page == 'chatbot' }}"
+               href="{{ url_for('chatbot') }}">
+                AI Assistant
+            </a>
+
+            <a class="{{ 'is-active' if active_page == 'profile' }}"
+               href="{{ url_for('profile') }}">
+                Profile
+            </a>
+
+        </nav>
+
+        <a class="logout-link" href="{{ url_for('logout') }}">
+            Logout
+        </a>
+
+    </aside>
+
+    <div class="overlay" id="overlay"></div>
+
+    <main class="workspace">
+
+        <header class="topbar">
+
+            <button class="icon-button menu-toggle"
+                    id="menuToggle"
+                    type="button"
+                    aria-label="Open navigation">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+            <div>
+
+                <p class="eyebrow">Financial workspace</p>
+
+                <h1>{{ page_title }}</h1>
+
+            </div>
+
+            <form class="global-search" role="search">
+
+                <input
+                    type="search"
+                    id="globalSearch"
+                    placeholder="Search transactions, reports, insights">
+
+            </form>
+
+            <time class="current-date" id="currentDate"></time>
+
+            <a class="user-pill" href="{{ url_for('profile') }}">
+
+                <span>{{ user.name[:1] }}</span>
+
+                <strong>{{ user.name }}</strong>
+
+            </a>
+
+        </header>
+
+        {% block content %}{% endblock %}
+
+    </main>
+
+</div>
+
+{% endif %}
+
+<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+
+{% block scripts %}{% endblock %}
+
+</body>
+</html>

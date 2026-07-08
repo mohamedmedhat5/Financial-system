@@ -1,0 +1,1784 @@
+age,gender,education_level,job_title,years_of_experience,salary,experience_per_age,seniority,age_group
+32,male,bachelor's,software engineer,5,90000,0.15625,mid,mid_age
+28,female,master's,data analyst,3,65000,0.10714285714285714,mid,junior
+45,male,phd,senior manager,15,150000,0.3333333333333333,senior,senior
+36,female,bachelor's,sales associate,7,60000,0.19444444444444445,mid,mid_age
+52,male,master's,director,20,200000,0.38461538461538464,senior,senior
+29,male,bachelor's,marketing analyst,2,55000,0.06896551724137931,junior,junior
+42,female,master's,product manager,12,120000,0.2857142857142857,senior,mid_age
+31,male,bachelor's,sales manager,4,80000,0.12903225806451613,mid,mid_age
+26,female,bachelor's,marketing coordinator,1,45000,0.038461538461538464,junior,junior
+38,male,phd,senior scientist,10,110000,0.2631578947368421,senior,mid_age
+29,male,master's,software developer,3,75000,0.10344827586206896,mid,junior
+48,female,bachelor's,human resources manager,18,140000,0.375,senior,senior
+35,male,bachelor's,financial analyst,6,65000,0.17142857142857143,mid,mid_age
+40,female,master's,project manager,14,130000,0.35,senior,mid_age
+27,male,bachelor's,customer service representative,2,40000,0.07407407407407407,junior,junior
+44,male,bachelor's,operations manager,16,125000,0.36363636363636365,senior,mid_age
+33,female,master's,marketing manager,7,90000,0.21212121212121213,mid,mid_age
+39,male,phd,senior engineer,12,115000,0.3076923076923077,senior,mid_age
+25,female,bachelor's,data entry clerk,0,35000,0.0,junior,junior
+51,male,bachelor's,sales director,22,180000,0.43137254901960786,senior,senior
+34,female,master's,business analyst,5,80000,0.14705882352941177,mid,mid_age
+47,male,master's,vp of operations,19,190000,0.40425531914893614,senior,senior
+30,male,bachelor's,it support,2,50000,0.06666666666666667,junior,mid_age
+36,female,bachelor's,recruiter,9,60000,0.25,mid,mid_age
+41,male,master's,financial manager,13,140000,0.3170731707317073,senior,mid_age
+28,female,bachelor's,social media specialist,3,45000,0.10714285714285714,mid,junior
+37,female,master's,software manager,11,110000,0.2972972972972973,senior,mid_age
+24,male,bachelor's,junior developer,1,40000,0.041666666666666664,junior,junior
+43,female,phd,senior consultant,15,140000,0.3488372093023256,senior,mid_age
+33,male,master's,product designer,6,90000,0.18181818181818182,mid,mid_age
+50,male,bachelor's,ceo,25,250000,0.5,senior,senior
+31,female,bachelor's,accountant,4,55000,0.12903225806451613,mid,mid_age
+29,male,master's,data scientist,3,75000,0.10344827586206896,mid,junior
+39,female,bachelor's,marketing specialist,10,65000,0.2564102564102564,senior,mid_age
+46,male,phd,senior manager,20,170000,0.43478260869565216,senior,senior
+27,male,bachelor's,technical writer,2,45000,0.07407407407407407,junior,junior
+35,female,bachelor's,hr generalist,7,60000,0.2,mid,mid_age
+42,male,master's,project engineer,14,115000,0.3333333333333333,senior,mid_age
+26,female,bachelor's,customer success rep,1,40000,0.038461538461538464,junior,junior
+49,male,bachelor's,sales executive,21,160000,0.42857142857142855,senior,senior
+34,female,master's,ux designer,5,80000,0.14705882352941177,mid,mid_age
+48,male,master's,operations director,18,190000,0.375,senior,senior
+30,male,bachelor's,network engineer,3,60000,0.1,mid,mid_age
+36,female,bachelor's,administrative assistant,8,45000,0.2222222222222222,mid,mid_age
+41,male,master's,strategy consultant,13,130000,0.3170731707317073,senior,mid_age
+28,female,bachelor's,copywriter,2,40000,0.07142857142857142,junior,junior
+32,male,bachelor's,account manager,5,75000,0.15625,mid,mid_age
+45,female,master's,director of marketing,16,180000,0.35555555555555557,senior,senior
+38,male,phd,senior scientist,11,120000,0.2894736842105263,senior,mid_age
+25,male,bachelor's,help desk analyst,0,35000,0.0,junior,junior
+51,female,bachelor's,customer service manager,22,130000,0.43137254901960786,senior,senior
+33,male,master's,business intelligence analyst,7,85000,0.21212121212121213,mid,mid_age
+40,female,bachelor's,event coordinator,12,60000,0.3,senior,mid_age
+47,male,master's,vp of finance,19,200000,0.40425531914893614,senior,senior
+29,female,bachelor's,graphic designer,3,50000,0.10344827586206896,mid,junior
+36,male,bachelor's,sales manager,9,95000,0.25,mid,mid_age
+27,female,master's,ux researcher,2,65000,0.07407407407407407,junior,junior
+43,male,phd,senior engineer,17,140000,0.3953488372093023,senior,mid_age
+30,female,bachelor's,social media manager,4,55000,0.13333333333333333,mid,mid_age
+35,male,master's,product manager,7,105000,0.2,mid,mid_age
+51,female,master's,director of operations,23,170000,0.45098039215686275,senior,senior
+29,male,bachelor's,marketing analyst,3,50000,0.10344827586206896,mid,junior
+40,female,bachelor's,human resources manager,12,80000,0.3,senior,mid_age
+47,male,phd,senior data scientist,21,180000,0.44680851063829785,senior,senior
+26,male,bachelor's,junior accountant,1,35000,0.038461538461538464,junior,junior
+38,female,master's,digital marketing manager,10,90000,0.2631578947368421,senior,mid_age
+46,male,bachelor's,it manager,19,120000,0.41304347826086957,senior,senior
+31,female,bachelor's,customer service representative,5,45000,0.16129032258064516,mid,mid_age
+34,male,master's,business development manager,8,90000,0.23529411764705882,mid,mid_age
+49,female,master's,senior financial analyst,18,150000,0.3673469387755102,senior,senior
+33,male,bachelor's,web developer,6,65000,0.18181818181818182,mid,mid_age
+39,female,bachelor's,recruiter,11,70000,0.28205128205128205,senior,mid_age
+45,male,phd,research director,16,190000,0.35555555555555557,senior,senior
+28,male,bachelor's,technical support specialist,2,40000,0.07142857142857142,junior,junior
+42,female,master's,creative director,14,120000,0.3333333333333333,senior,mid_age
+37,male,bachelor's,project manager,10,95000,0.2702702702702703,senior,mid_age
+50,female,bachelor's,operations manager,22,160000,0.44,senior,senior
+32,male,master's,senior software engineer,6,100000,0.1875,mid,mid_age
+48,female,master's,human resources director,20,180000,0.4166666666666667,senior,senior
+30,female,bachelor's,content marketing manager,3,55000,0.1,mid,mid_age
+36,male,bachelor's,technical recruiter,8,70000,0.2222222222222222,mid,mid_age
+41,female,master's,data analyst,13,80000,0.3170731707317073,senior,mid_age
+25,male,bachelor's,sales representative,0,30000,0.0,junior,junior
+52,male,phd,chief technology officer,24,250000,0.46153846153846156,senior,senior
+29,female,bachelor's,junior designer,2,40000,0.06896551724137931,junior,junior
+34,female,master's,financial advisor,10,95000,0.29411764705882354,senior,mid_age
+27,male,bachelor's,junior account manager,2,45000,0.07407407407407407,junior,junior
+40,female,bachelor's,hr generalist,15,80000,0.375,senior,mid_age
+46,male,master's,senior project manager,21,135000,0.45652173913043476,senior,senior
+31,female,bachelor's,marketing coordinator,6,55000,0.1935483870967742,mid,mid_age
+36,male,phd,principal scientist,11,120000,0.3055555555555556,senior,mid_age
+29,female,bachelor's,sales associate,3,40000,0.10344827586206896,mid,junior
+43,male,bachelor's,supply chain manager,18,105000,0.4186046511627907,senior,mid_age
+52,female,master's,senior marketing manager,25,170000,0.4807692307692308,senior,senior
+33,male,bachelor's,business analyst,7,75000,0.21212121212121213,mid,mid_age
+39,female,bachelor's,training specialist,12,65000,0.3076923076923077,senior,mid_age
+47,male,phd,research scientist,22,160000,0.46808510638297873,senior,senior
+26,male,bachelor's,junior software developer,1,35000,0.038461538461538464,junior,junior
+38,female,master's,public relations manager,10,90000,0.2631578947368421,senior,mid_age
+45,male,bachelor's,operations analyst,20,110000,0.4444444444444444,senior,senior
+31,female,bachelor's,event coordinator,5,45000,0.16129032258064516,mid,mid_age
+35,male,master's,product marketing manager,8,95000,0.22857142857142856,mid,mid_age
+49,female,master's,senior hr manager,19,150000,0.3877551020408163,senior,senior
+33,male,bachelor's,junior web developer,5,50000,0.15151515151515152,mid,mid_age
+39,female,master's,senior project coordinator,13,80000,0.3333333333333333,senior,mid_age
+44,male,phd,chief data officer,16,220000,0.36363636363636365,senior,mid_age
+30,female,bachelor's,digital content producer,3,50000,0.1,mid,mid_age
+36,male,bachelor's,it support specialist,7,60000,0.19444444444444445,mid,mid_age
+41,female,master's,senior marketing analyst,14,100000,0.34146341463414637,senior,mid_age
+28,male,bachelor's,customer success manager,2,40000,0.07142857142857142,junior,junior
+42,female,master's,senior graphic designer,15,110000,0.35714285714285715,senior,mid_age
+37,male,bachelor's,software project manager,9,95000,0.24324324324324326,mid,mid_age
+50,female,bachelor's,supply chain analyst,22,130000,0.44,senior,senior
+32,male,master's,senior business analyst,6,90000,0.1875,mid,mid_age
+23,female,bachelor's,junior marketing analyst,0,35000,0.0,junior,junior
+31,male,master's,senior financial analyst,6,95000,0.1935483870967742,mid,mid_age
+40,female,bachelor's,office manager,15,65000,0.375,senior,mid_age
+48,male,phd,principal engineer,20,170000,0.4166666666666667,senior,senior
+29,female,bachelor's,junior hr generalist,3,45000,0.10344827586206896,mid,junior
+35,male,master's,senior product manager,10,120000,0.2857142857142857,senior,mid_age
+42,female,bachelor's,sales manager,17,100000,0.40476190476190477,senior,mid_age
+53,male,master's,director of marketing,25,180000,0.4716981132075472,senior,senior
+33,female,bachelor's,junior operations analyst,5,50000,0.15151515151515152,mid,mid_age
+38,male,bachelor's,customer service manager,11,80000,0.2894736842105263,senior,mid_age
+44,female,phd,senior scientist,16,140000,0.36363636363636365,senior,mid_age
+26,male,bachelor's,junior accountant,2,40000,0.07692307692307693,junior,junior
+37,female,master's,senior hr generalist,9,95000,0.24324324324324326,mid,mid_age
+45,male,bachelor's,sales operations manager,18,110000,0.4,senior,senior
+32,female,bachelor's,marketing coordinator,4,50000,0.125,mid,mid_age
+34,male,master's,senior software developer,8,105000,0.23529411764705882,mid,mid_age
+50,female,master's,director of operations,21,160000,0.42,senior,senior
+29,male,bachelor's,junior web designer,3,45000,0.10344827586206896,mid,junior
+40,female,master's,senior training specialist,12,100000,0.3,senior,mid_age
+47,male,phd,senior research scientist,22,160000,0.46808510638297873,senior,senior
+27,male,bachelor's,junior sales representative,1,35000,0.037037037037037035,junior,junior
+39,female,bachelor's,administrative assistant,10,55000,0.2564102564102564,senior,mid_age
+46,male,master's,senior project manager,19,140000,0.41304347826086957,senior,senior
+30,female,bachelor's,junior marketing manager,4,50000,0.13333333333333333,mid,mid_age
+36,male,bachelor's,junior data analyst,7,60000,0.19444444444444445,mid,mid_age
+43,female,master's,senior product marketing manager,14,120000,0.32558139534883723,senior,mid_age
+28,male,bachelor's,junior business analyst,2,40000,0.07142857142857142,junior,junior
+41,female,master's,senior marketing manager,13,110000,0.3170731707317073,senior,mid_age
+33,male,bachelor's,junior software developer,5,50000,0.15151515151515152,mid,mid_age
+47,male,bachelor's,senior sales manager,20,135000,0.425531914893617,senior,senior
+25,female,master's,junior marketing specialist,1,40000,0.04,junior,junior
+34,male,bachelor's,senior business analyst,8,90000,0.23529411764705882,mid,mid_age
+42,female,phd,senior data scientist,16,150000,0.38095238095238093,senior,mid_age
+31,male,bachelor's,junior project manager,4,60000,0.12903225806451613,mid,mid_age
+38,female,bachelor's,senior accountant,10,80000,0.2631578947368421,senior,mid_age
+45,male,master's,director of sales,19,175000,0.4222222222222222,senior,senior
+29,female,bachelor's,junior recruiter,3,45000,0.10344827586206896,mid,junior
+36,male,master's,senior business development manager,11,120000,0.3055555555555556,senior,mid_age
+43,female,phd,senior product designer,18,140000,0.4186046511627907,senior,mid_age
+26,male,bachelor's,junior customer support specialist,2,35000,0.07692307692307693,junior,junior
+37,female,master's,senior marketing analyst,9,95000,0.24324324324324326,mid,mid_age
+44,male,bachelor's,senior it support specialist,14,110000,0.3181818181818182,senior,mid_age
+32,female,bachelor's,junior financial analyst,5,50000,0.15625,mid,mid_age
+33,male,master's,senior operations manager,7,115000,0.21212121212121213,mid,mid_age
+51,female,phd,director of human resources,23,185000,0.45098039215686275,senior,senior
+28,male,bachelor's,junior software engineer,2,40000,0.07142857142857142,junior,junior
+39,female,bachelor's,senior sales representative,12,90000,0.3076923076923077,senior,mid_age
+48,male,master's,director of product management,21,175000,0.4375,senior,senior
+30,female,bachelor's,junior copywriter,3,45000,0.1,mid,mid_age
+35,male,bachelor's,senior marketing coordinator,7,80000,0.2,mid,mid_age
+41,female,master's,senior human resources manager,13,120000,0.3170731707317073,senior,mid_age
+27,male,bachelor's,junior business development associate,1,35000,0.037037037037037035,junior,junior
+40,female,bachelor's,senior account manager,14,110000,0.35,senior,mid_age
+46,male,phd,senior researcher,18,150000,0.391304347826087,senior,senior
+31,female,bachelor's,junior hr coordinator,4,50000,0.12903225806451613,mid,mid_age
+34,male,master's,senior software engineer,9,105000,0.2647058823529412,mid,mid_age
+50,female,master's,director of finance,20,180000,0.4,senior,senior
+29,male,bachelor's,junior marketing coordinator,2,40000,0.06896551724137931,junior,junior
+43,male,bachelor's,senior project manager,16,140000,0.37209302325581395,senior,mid_age
+26,female,master's,junior data scientist,1,45000,0.038461538461538464,junior,junior
+35,male,bachelor's,senior operations analyst,7,85000,0.2,mid,mid_age
+42,female,phd,senior marketing manager,18,140000,0.42857142857142855,senior,mid_age
+31,male,bachelor's,junior accountant,4,50000,0.12903225806451613,mid,mid_age
+38,female,bachelor's,senior human resources coordinator,10,80000,0.2631578947368421,senior,mid_age
+46,male,master's,director of operations,20,170000,0.43478260869565216,senior,senior
+29,female,bachelor's,junior sales representative,2,40000,0.06896551724137931,junior,junior
+37,male,master's,senior business analyst,9,105000,0.24324324324324326,mid,mid_age
+44,female,phd,senior ux designer,15,145000,0.3409090909090909,senior,mid_age
+27,male,bachelor's,junior product manager,2,40000,0.07407407407407407,junior,junior
+36,female,bachelor's,senior marketing specialist,8,85000,0.2222222222222222,mid,mid_age
+43,male,bachelor's,senior it project manager,14,130000,0.32558139534883723,senior,mid_age
+33,female,master's,senior financial analyst,6,95000,0.18181818181818182,mid,mid_age
+34,male,bachelor's,senior quality assurance analyst,9,100000,0.2647058823529412,mid,mid_age
+50,female,phd,director of sales and marketing,22,180000,0.44,senior,senior
+28,male,bachelor's,junior operations analyst,1,35000,0.03571428571428571,junior,junior
+39,female,bachelor's,senior account executive,12,95000,0.3076923076923077,senior,mid_age
+47,male,master's,director of business development,19,170000,0.40425531914893614,senior,senior
+30,female,bachelor's,junior social media manager,3,45000,0.1,mid,mid_age
+34,male,bachelor's,senior product manager,7,95000,0.20588235294117646,mid,mid_age
+40,female,master's,senior human resources specialist,13,120000,0.325,senior,mid_age
+41,female,bachelor's,senior marketing coordinator,11,90000,0.2682926829268293,senior,mid_age
+45,male,phd,senior data analyst,17,155000,0.37777777777777777,senior,senior
+32,female,bachelor's,junior account manager,5,55000,0.15625,mid,mid_age
+35,male,master's,senior software developer,9,110000,0.2571428571428571,mid,mid_age
+49,female,master's,director of human capital,21,180000,0.42857142857142855,senior,senior
+30,male,bachelor's,junior advertising coordinator,3,45000,0.1,mid,mid_age
+44,male,bachelor's,senior sales manager,16,130000,0.36363636363636365,senior,mid_age
+27,female,master's,junior ux designer,1,45000,0.037037037037037035,junior,junior
+36,male,bachelor's,senior accountant,7,90000,0.19444444444444445,mid,mid_age
+41,female,phd,senior marketing director,17,160000,0.4146341463414634,senior,mid_age
+31,male,bachelor's,junior hr generalist,4,50000,0.12903225806451613,mid,mid_age
+39,female,bachelor's,senior operations manager,10,120000,0.2564102564102564,senior,mid_age
+47,male,master's,director of finance,20,170000,0.425531914893617,senior,senior
+30,female,bachelor's,junior marketing coordinator,2,40000,0.06666666666666667,junior,mid_age
+38,male,master's,senior it consultant,9,110000,0.23684210526315788,mid,mid_age
+45,female,phd,senior product designer,15,150000,0.3333333333333333,senior,senior
+28,male,bachelor's,junior business development associate,2,40000,0.07142857142857142,junior,junior
+35,female,bachelor's,senior marketing analyst,8,85000,0.22857142857142856,mid,mid_age
+44,male,bachelor's,senior software engineer,14,130000,0.3181818181818182,senior,mid_age
+34,female,master's,senior financial advisor,6,100000,0.17647058823529413,mid,mid_age
+35,male,bachelor's,senior project coordinator,9,95000,0.2571428571428571,mid,mid_age
+50,female,phd,director of operations,22,180000,0.44,senior,senior
+29,male,bachelor's,junior business operations analyst,1,35000,0.034482758620689655,junior,junior
+40,female,bachelor's,senior sales representative,12,100000,0.3,senior,mid_age
+48,male,master's,director of marketing,19,170000,0.3958333333333333,senior,senior
+31,female,bachelor's,junior social media specialist,3,45000,0.0967741935483871,mid,mid_age
+33,male,bachelor's,senior product development manager,7,100000,0.21212121212121213,mid,mid_age
+42,female,master's,senior human resources manager,13,140000,0.30952380952380953,senior,mid_age
+28,male,bachelor's,junior financial analyst,2,40000,0.07142857142857142,junior,junior
+40,female,bachelor's,senior marketing manager,11,105000,0.275,senior,mid_age
+46,male,phd,senior data scientist,18,160000,0.391304347826087,senior,senior
+33,female,bachelor's,junior operations manager,5,70000,0.15151515151515152,mid,mid_age
+37,male,master's,senior software architect,9,120000,0.24324324324324326,mid,mid_age
+51,female,master's,director of human resources,21,190000,0.4117647058823529,senior,senior
+30,male,bachelor's,junior marketing specialist,3,45000,0.1,mid,mid_age
+43,male,bachelor's,senior project manager,15,120000,0.3488372093023256,senior,mid_age
+27,female,master's,junior research scientist,1,50000,0.037037037037037035,junior,junior
+35,male,bachelor's,senior operations analyst,8,85000,0.22857142857142856,mid,mid_age
+42,female,phd,senior marketing manager,13,140000,0.30952380952380953,senior,mid_age
+32,male,bachelor's,junior sales representative,3,45000,0.09375,mid,mid_age
+37,female,bachelor's,senior financial analyst,9,100000,0.24324324324324326,mid,mid_age
+45,male,master's,senior software developer,16,140000,0.35555555555555557,senior,senior
+33,female,bachelor's,junior operations analyst,5,70000,0.15151515151515152,mid,mid_age
+39,male,bachelor's,senior marketing specialist,10,120000,0.2564102564102564,senior,mid_age
+44,female,phd,senior hr manager,18,160000,0.4090909090909091,senior,mid_age
+29,male,bachelor's,junior business analyst,1,40000,0.034482758620689655,junior,junior
+38,female,bachelor's,senior product manager,10,120000,0.2631578947368421,senior,mid_age
+46,male,phd,senior data analyst,19,150000,0.41304347826086957,senior,senior
+34,female,bachelor's,junior marketing analyst,6,70000,0.17647058823529413,mid,mid_age
+36,male,bachelor's,senior operations manager,8,95000,0.2222222222222222,mid,mid_age
+49,female,master's,director of marketing,21,180000,0.42857142857142855,senior,senior
+31,male,bachelor's,junior financial analyst,3,50000,0.0967741935483871,mid,mid_age
+41,female,bachelor's,senior project coordinator,11,95000,0.2682926829268293,senior,mid_age
+47,male,master's,director of operations,20,170000,0.425531914893617,senior,senior
+37,female,bachelor's,senior financial manager,10,120000,0.2702702702702703,senior,mid_age
+31,female,bachelor's,junior marketing coordinator,3,50000,0.0967741935483871,mid,mid_age
+42,male,bachelor's,senior operations manager,12,110000,0.2857142857142857,senior,mid_age
+29,female,bachelor's,junior sales representative,1,40000,0.034482758620689655,junior,junior
+36,male,bachelor's,senior marketing specialist,8,95000,0.2222222222222222,mid,mid_age
+44,female,master's,senior hr specialist,15,140000,0.3409090909090909,senior,mid_age
+33,male,bachelor's,junior operations manager,4,60000,0.12121212121212122,mid,mid_age
+39,female,bachelor's,senior marketing coordinator,9,110000,0.23076923076923078,mid,mid_age
+45,male,phd,senior data engineer,16,150000,0.35555555555555557,senior,senior
+32,female,bachelor's,junior marketing manager,4,60000,0.125,mid,mid_age
+37,male,bachelor's,senior financial analyst,8,90000,0.21621621621621623,mid,mid_age
+47,female,master's,director of marketing,20,180000,0.425531914893617,senior,senior
+30,male,bachelor's,junior business analyst,2,40000,0.06666666666666667,junior,mid_age
+38,female,bachelor's,senior project manager,9,120000,0.23684210526315788,mid,mid_age
+46,male,phd,senior data analyst,17,160000,0.3695652173913043,senior,senior
+34,female,bachelor's,junior financial analyst,5,70000,0.14705882352941177,mid,mid_age
+36,male,bachelor's,senior product manager,8,95000,0.2222222222222222,mid,mid_age
+49,female,master's,director of operations,21,180000,0.42857142857142855,senior,senior
+31,male,bachelor's,junior operations analyst,3,50000,0.0967741935483871,mid,mid_age
+47,male,master's,director of marketing,19,170000,0.40425531914893614,senior,senior
+29,female,bachelor's,junior business development associate,1,35000,0.034482758620689655,junior,junior
+35,male,bachelor's,senior financial manager,9,100000,0.2571428571428571,mid,mid_age
+44,female,phd,senior product designer,15,150000,0.3409090909090909,senior,mid_age
+33,male,bachelor's,junior business analyst,4,60000,0.12121212121212122,mid,mid_age
+44,male,bachelor's,senior software engineer,13,130000,0.29545454545454547,senior,mid_age
+32,male,bachelor's,junior product manager,4,65000,0.125,mid,mid_age
+38,female,bachelor's,senior business analyst,10,110000,0.2631578947368421,senior,mid_age
+49,male,phd,director of operations,21,180000,0.42857142857142855,senior,senior
+29,female,bachelor's,junior marketing specialist,2,40000,0.06896551724137931,junior,junior
+35,male,bachelor's,senior business development manager,7,90000,0.2,mid,mid_age
+45,female,master's,senior hr manager,14,140000,0.3111111111111111,senior,senior
+33,male,bachelor's,junior financial analyst,4,60000,0.12121212121212122,mid,mid_age
+40,female,bachelor's,senior marketing manager,12,130000,0.3,senior,mid_age
+44,male,phd,senior data scientist,16,160000,0.36363636363636365,senior,mid_age
+30,female,bachelor's,junior operations coordinator,2,40000,0.06666666666666667,junior,mid_age
+37,male,bachelor's,senior marketing analyst,9,100000,0.24324324324324326,mid,mid_age
+48,female,master's,human resources director,20,180000,0.4166666666666667,senior,senior
+31,male,bachelor's,junior project manager,3,55000,0.0967741935483871,mid,mid_age
+38,female,bachelor's,senior operations coordinator,9,120000,0.23684210526315788,mid,mid_age
+33,female,bachelor's,junior marketing manager,5,70000,0.15151515151515152,mid,mid_age
+36,male,bachelor's,senior business analyst,8,95000,0.2222222222222222,mid,mid_age
+42,female,bachelor's,senior project manager,12,120000,0.2857142857142857,senior,mid_age
+34,female,master's,senior financial advisor,6,80000,0.17647058823529413,mid,mid_age
+30,female,bachelor's,junior hr coordinator,2,40000,0.06666666666666667,junior,mid_age
+37,male,bachelor's,senior business development manager,10,120000,0.2702702702702703,senior,mid_age
+45,female,master's,senior marketing manager,16,160000,0.35555555555555557,senior,senior
+32,male,bachelor's,junior financial advisor,4,65000,0.125,mid,mid_age
+39,female,bachelor's,senior project manager,12,130000,0.3076923076923077,senior,mid_age
+47,male,phd,director of engineering,20,180000,0.425531914893617,senior,senior
+29,female,bachelor's,junior marketing analyst,2,40000,0.06896551724137931,junior,junior
+36,male,bachelor's,senior operations manager,9,100000,0.25,mid,mid_age
+43,female,phd,senior data scientist,15,150000,0.3488372093023256,senior,mid_age
+32,male,bachelor's,junior marketing coordinator,3,55000,0.09375,mid,mid_age
+48,male,master's,director of marketing,21,180000,0.4375,senior,senior
+31,female,bachelor's,junior business development associate,3,50000,0.0967741935483871,mid,mid_age
+40,male,bachelor's,senior financial analyst,12,130000,0.3,senior,mid_age
+45,female,phd,senior ux designer,16,160000,0.35555555555555557,senior,senior
+33,male,bachelor's,junior product manager,4,60000,0.12121212121212122,mid,mid_age
+36,female,bachelor's,senior marketing manager,8,95000,0.2222222222222222,mid,mid_age
+47,male,master's,director of operations,19,170000,0.40425531914893614,senior,senior
+29,female,bachelor's,junior project manager,2,40000,0.06896551724137931,junior,junior
+34,male,bachelor's,senior operations coordinator,7,90000,0.20588235294117646,mid,mid_age
+44,female,phd,senior business analyst,15,150000,0.3409090909090909,senior,mid_age
+33,male,bachelor's,junior marketing specialist,5,70000,0.15151515151515152,mid,mid_age
+35,female,bachelor's,senior financial manager,8,90000,0.22857142857142856,mid,mid_age
+43,male,master's,director of marketing,18,170000,0.4186046511627907,senior,mid_age
+31,female,bachelor's,junior financial analyst,3,50000,0.0967741935483871,mid,mid_age
+41,male,bachelor's,senior product manager,14,150000,0.34146341463414637,senior,mid_age
+44,female,phd,senior data engineer,16,160000,0.36363636363636365,senior,mid_age
+45,male,master's,director of engineering,19,180000,0.4222222222222222,senior,senior
+28,female,bachelor's,junior operations manager,1,35000,0.03571428571428571,junior,junior
+36,male,bachelor's,senior business development manager,8,110000,0.2222222222222222,mid,mid_age
+44,female,phd,senior data scientist,16,160000,0.36363636363636365,senior,mid_age
+31,male,bachelor's,junior marketing coordinator,3,55000,0.0967741935483871,mid,mid_age
+43,male,master's,director of operations,19,170000,0.4418604651162791,senior,mid_age
+31,male,master's,data scientist,6,160000,0.1935483870967742,mid,mid_age
+28,female,bachelor's,software engineer,3,125000,0.10714285714285714,mid,junior
+26,male,master's,product manager,2,120000,0.07692307692307693,junior,junior
+27,female,bachelor's,data analyst,2,110000,0.07407407407407407,junior,junior
+30,male,phd,data scientist,5,180000,0.16666666666666666,mid,mid_age
+29,female,bachelor's,software engineer,4,140000,0.13793103448275862,mid,junior
+32,male,bachelor's,product manager,7,170000,0.21875,mid,mid_age
+25,female,master's,data analyst,1,100000,0.04,junior,junior
+33,male,phd,data scientist,8,190000,0.24242424242424243,mid,mid_age
+31,female,bachelor's,software engineer,6,155000,0.1935483870967742,mid,mid_age
+28,male,master's,product manager,3,130000,0.10714285714285714,mid,junior
+30,female,bachelor's,data analyst,5,145000,0.16666666666666666,mid,mid_age
+27,male,phd,data scientist,2,115000,0.07407407407407407,junior,junior
+34,male,bachelor's,product manager,9,185000,0.2647058823529412,mid,mid_age
+28,male,bachelor's,software engineer,3,125000,0.10714285714285714,mid,junior
+26,female,master's,product manager,2,120000,0.07692307692307693,junior,junior
+27,male,bachelor's,data analyst,2,110000,0.07407407407407407,junior,junior
+30,female,phd,data scientist,5,180000,0.16666666666666666,mid,mid_age
+29,male,bachelor's,software engineer,4,140000,0.13793103448275862,mid,junior
+26,male,bachelor's,data analyst,3,130000,0.11538461538461539,mid,junior
+29,female,master's,data scientist,6,180000,0.20689655172413793,mid,junior
+32,male,bachelor's,software engineer,8,190000,0.25,mid,mid_age
+27,female,bachelor's,product manager,4,150000,0.14814814814814814,mid,junior
+24,male,bachelor's,data analyst,1,90000,0.041666666666666664,junior,junior
+31,female,master's,data scientist,9,195000,0.2903225806451613,mid,mid_age
+28,male,bachelor's,software engineer,5,160000,0.17857142857142858,mid,junior
+33,female,master's,product manager,11,198000,0.3333333333333333,senior,mid_age
+25,male,bachelor's,data analyst,2,110000,0.08,junior,junior
+30,female,phd,data scientist,7,185000,0.23333333333333334,mid,mid_age
+27,male,bachelor's,software engineer,4,140000,0.14814814814814814,mid,junior
+34,female,master's,product manager,12,196000,0.35294117647058826,senior,mid_age
+23,male,bachelor's,data analyst,1,95000,0.043478260869565216,junior,junior
+32,female,phd,data scientist,10,193000,0.3125,senior,mid_age
+29,male,bachelor's,software engineer,6,175000,0.20689655172413793,mid,junior
+30,female,bachelor's,product manager,5,160000,0.16666666666666666,mid,mid_age
+31,female,master's,data scientist,6,180000,0.1935483870967742,mid,mid_age
+31,male,bachelor's,data analyst,9,195000,0.2903225806451613,mid,mid_age
+28,female,bachelor's,software engineer,5,160000,0.17857142857142858,mid,junior
+33,male,master's,product manager,11,198000,0.3333333333333333,senior,mid_age
+26,female,bachelor's,data analyst,3,130000,0.11538461538461539,mid,junior
+30,male,phd,data scientist,7,185000,0.23333333333333334,mid,mid_age
+27,female,bachelor's,software engineer,4,140000,0.14814814814814814,mid,junior
+34,male,master's,product manager,12,196000,0.35294117647058826,senior,mid_age
+25,female,bachelor's,data analyst,2,110000,0.08,junior,junior
+30,male,bachelor's,data analyst,5,160000,0.16666666666666666,mid,mid_age
+31,female,phd,data scientist,9,195000,0.2903225806451613,mid,mid_age
+25,male,bachelor's,data analyst,2,125000,0.08,junior,junior
+28,female,master's,data scientist,6,175000,0.21428571428571427,mid,junior
+30,male,bachelor's,software engineer,8,190000,0.26666666666666666,mid,mid_age
+24,male,bachelor's,data analyst,1,95000,0.041666666666666664,junior,junior
+31,male,master's,data scientist,9,195000,0.2903225806451613,mid,mid_age
+23,male,bachelor's,data analyst,1,90000,0.043478260869565216,junior,junior
+29,male,bachelor's,software engineer,6,170000,0.20689655172413793,mid,junior
+26,male,bachelor's,data analyst,3,135000,0.11538461538461539,mid,junior
+25,male,bachelor's,data analyst,2,115000,0.08,junior,junior
+27,female,master's,data scientist,4,150000,0.14814814814814814,mid,junior
+24,female,bachelor's,product manager,3,125000,0.125,mid,junior
+31,male,master's,data scientist,7,180000,0.22580645161290322,mid,mid_age
+33,female,master's,product manager,10,195000,0.30303030303030304,senior,mid_age
+30,female,phd,data scientist,6,170000,0.2,mid,mid_age
+34,female,master's,product manager,11,196000,0.3235294117647059,senior,mid_age
+23,male,bachelor's,data analyst,1,92000,0.043478260869565216,junior,junior
+32,female,phd,data scientist,9,195000,0.28125,mid,mid_age
+28,male,bachelor's,software engineer,5,165000,0.17857142857142858,mid,junior
+25,male,bachelor's,data analyst,3,135000,0.12,mid,junior
+33,female,master's,product manager,11,196000,0.3333333333333333,senior,mid_age
+24,male,bachelor's,data analyst,1,92000,0.041666666666666664,junior,junior
+32,male,bachelor's,data analyst,5,135000,0.15625,mid,mid_age
+27,female,master's,data scientist,3,180000,0.1111111111111111,mid,junior
+40,male,bachelor's,software engineer,12,195000,0.3,senior,mid_age
+35,female,bachelor's,product manager,8,165000,0.22857142857142856,mid,mid_age
+43,male,master's,data scientist,15,198000,0.3488372093023256,senior,mid_age
+29,female,bachelor's,software engineer,4,150000,0.13793103448275862,mid,junior
+36,male,bachelor's,data analyst,9,162000,0.25,mid,mid_age
+31,male,master's,data scientist,6,175000,0.1935483870967742,mid,mid_age
+42,female,bachelor's,software engineer,13,197000,0.30952380952380953,senior,mid_age
+33,male,bachelor's,data analyst,7,142000,0.21212121212121213,mid,mid_age
+29,female,master's,data scientist,4,182000,0.13793103448275862,mid,junior
+41,male,bachelor's,software engineer,11,185000,0.2682926829268293,senior,mid_age
+35,female,bachelor's,product manager,8,170000,0.22857142857142856,mid,mid_age
+27,male,bachelor's,software engineer,4,160000,0.14814814814814814,mid,junior
+32,male,bachelor's,data scientist,8,180000,0.25,mid,mid_age
+29,female,master's,data analyst,6,150000,0.20689655172413793,mid,junior
+30,male,bachelor's,data analyst,5,140000,0.16666666666666666,mid,mid_age
+24,male,bachelor's,data analyst,2,100000,0.08333333333333333,junior,junior
+33,female,master's,product manager,11,190000,0.3333333333333333,senior,mid_age
+26,male,bachelor's,data analyst,3,120000,0.11538461538461539,mid,junior
+30,female,phd,data scientist,7,170000,0.23333333333333334,mid,mid_age
+31,male,bachelor's,data analyst,9,190000,0.2903225806451613,mid,mid_age
+28,female,bachelor's,software engineer,5,150000,0.17857142857142858,mid,junior
+26,female,bachelor's,data analyst,3,120000,0.11538461538461539,mid,junior
+30,male,phd,data scientist,7,170000,0.23333333333333334,mid,mid_age
+27,female,bachelor's,product manager,4,130000,0.14814814814814814,mid,junior
+24,male,bachelor's,data analyst,2,95000,0.08333333333333333,junior,junior
+33,male,master's,product manager,11,195000,0.3333333333333333,senior,mid_age
+25,male,bachelor's,data analyst,2,100000,0.08,junior,junior
+28,male,bachelor's,software engineer,5,150000,0.17857142857142858,mid,junior
+29,female,master's,data scientist,6,150000,0.20689655172413793,mid,junior
+33,female,master's,product manager,11,195000,0.3333333333333333,senior,mid_age
+31,female,master's,data scientist,6,170000,0.1935483870967742,mid,mid_age
+32,male,bachelor's,software engineer,8,180000,0.25,mid,mid_age
+34,female,master's,product manager,12,190000,0.35294117647058826,senior,mid_age
+25,female,bachelor's,data analyst,2,100000,0.08,junior,junior
+29,male,bachelor's,software engineer,7,180000,0.2413793103448276,mid,junior
+27,female,bachelor's,data analyst,5,120000,0.18518518518518517,mid,junior
+33,male,master's,data scientist,10,195000,0.30303030303030304,senior,mid_age
+28,male,bachelor's,software engineer,4,160000,0.14285714285714285,mid,junior
+26,female,bachelor's,data analyst,3,100000,0.11538461538461539,mid,junior
+31,male,bachelor's,product manager,8,190000,0.25806451612903225,mid,mid_age
+30,male,master's,software engineer,6,170000,0.2,mid,mid_age
+32,female,bachelor's,data scientist,9,185000,0.28125,mid,mid_age
+29,male,bachelor's,data analyst,7,130000,0.2413793103448276,mid,junior
+35,female,bachelor's,product manager,12,190000,0.34285714285714286,senior,mid_age
+27,male,bachelor's,software engineer,5,150000,0.18518518518518517,mid,junior
+28,female,master's,data scientist,6,150000,0.21428571428571427,mid,junior
+37,male,phd,product manager,14,195000,0.3783783783783784,senior,mid_age
+26,male,bachelor's,data analyst,3,110000,0.11538461538461539,mid,junior
+30,female,bachelor's,software engineer,8,180000,0.26666666666666666,mid,mid_age
+31,male,master's,data scientist,9,185000,0.2903225806451613,mid,mid_age
+29,female,bachelor's,data analyst,7,130000,0.2413793103448276,mid,junior
+32,male,bachelor's,software engineer,10,190000,0.3125,senior,mid_age
+28,female,master's,data scientist,6,155000,0.21428571428571427,mid,junior
+34,male,bachelor's,software engineer,12,195000,0.35294117647058826,senior,mid_age
+25,female,bachelor's,data analyst,2,90000,0.08,junior,junior
+30,male,bachelor's,product manager,8,185000,0.26666666666666666,mid,mid_age
+29,female,bachelor's,data analyst,6,120000,0.20689655172413793,mid,junior
+31,male,bachelor's,software engineer,9,180000,0.2903225806451613,mid,mid_age
+27,female,bachelor's,data analyst,5,125000,0.18518518518518517,mid,junior
+28,male,bachelor's,senior software engineer,7,175000,0.25,mid,junior
+44,male,phd,software engineer manager,18,190000,0.4090909090909091,senior,mid_age
+33,female,master's,back end developer,5,110000,0.15151515151515152,mid,mid_age
+50,male,phd,senior project engineer,16,195000,0.32,senior,senior
+27,female,master's,full stack engineer,3,100000,0.1111111111111111,mid,junior
+25,male,bachelor's,front end developer,1,60000,0.04,junior,junior
+35,male,master's,senior software engineer,8,155000,0.22857142857142856,mid,mid_age
+47,female,phd,full stack engineer,12,175000,0.2553191489361702,senior,senior
+46,female,master's,senior project engineer,13,180000,0.2826086956521739,senior,senior
+32,male,bachelor's,back end developer,4,95000,0.125,mid,mid_age
+61,male,phd,software engineer manager,20,200000,0.32786885245901637,senior,senior
+41,male,master's,senior software engineer,11,165000,0.2682926829268293,senior,mid_age
+37,male,master's,senior project engineer,9,145000,0.24324324324324326,mid,mid_age
+53,male,phd,software engineer manager,19,195000,0.3584905660377358,senior,senior
+30,female,bachelor's,front end developer,2,75000,0.06666666666666667,junior,mid_age
+26,female,master's,back end developer,3,90000,0.11538461538461539,mid,junior
+37,female,master's,senior software engineer,9,155000,0.24324324324324326,mid,mid_age
+32,male,bachelor's,full stack engineer,5,115000,0.15625,mid,mid_age
+44,female,master's,senior software engineer,12,170000,0.2727272727272727,senior,mid_age
+50,female,phd,software engineer manager,16,190000,0.32,senior,senior
+27,male,bachelor's,senior project engineer,4,115000,0.14814814814814814,mid,junior
+42,male,phd,full stack engineer,14,180000,0.3333333333333333,senior,mid_age
+57,male,phd,software engineer manager,18,195000,0.3157894736842105,senior,senior
+35,male,master's,senior software engineer,7,140000,0.2,mid,mid_age
+62,male,phd,software engineer manager,19,200000,0.3064516129032258,senior,senior
+26,female,master's,back end developer,2,70000,0.07692307692307693,junior,junior
+42,female,master's,senior project engineer,11,170000,0.2619047619047619,senior,mid_age
+41,female,phd,software engineer manager,14,185000,0.34146341463414637,senior,mid_age
+36,female,master's,full stack engineer,8,140000,0.2222222222222222,mid,mid_age
+49,male,phd,software engineer manager,15,185000,0.30612244897959184,senior,senior
+49,male,phd,senior project engineer,15,185000,0.30612244897959184,senior,senior
+47,male,phd,software engineer manager,15,180000,0.3191489361702128,senior,senior
+47,male,phd,senior software engineer,14,175000,0.2978723404255319,senior,senior
+26,male,bachelor's,front end developer,2,70000,0.07692307692307693,junior,junior
+24,female,bachelor's,back end developer,1,60000,0.041666666666666664,junior,junior
+62,male,phd,software engineer manager,20,200000,0.3225806451612903,senior,senior
+42,male,phd,senior software engineer,14,170000,0.3333333333333333,senior,mid_age
+41,female,master's,senior project engineer,11,165000,0.2682926829268293,senior,mid_age
+23,male,bachelor's,full stack engineer,1,55000,0.043478260869565216,junior,junior
+55,male,phd,software engineer manager,17,190000,0.3090909090909091,senior,senior
+33,female,bachelor's,front end developer,5,105000,0.15151515151515152,mid,mid_age
+31,male,master's,full stack engineer,6,130000,0.1935483870967742,mid,mid_age
+50,female,phd,software engineer manager,16,185000,0.32,senior,senior
+24,female,master's,back end developer,1,60000,0.041666666666666664,junior,junior
+56,male,phd,software engineer manager,17,195000,0.30357142857142855,senior,senior
+24,male,bachelor's,front end developer,1,60000,0.041666666666666664,junior,junior
+37,male,master's,senior software engineer,8,150000,0.21621621621621623,mid,mid_age
+43,female,phd,senior project engineer,13,180000,0.3023255813953488,senior,mid_age
+34,male,master's,back end developer,6,125000,0.17647058823529413,mid,mid_age
+45,male,phd,software engineer manager,15,185000,0.3333333333333333,senior,senior
+29,male,bachelor's,full stack engineer,3,90000,0.10344827586206896,mid,junior
+29,male,bachelor's,front end developer,3,80000,0.10344827586206896,mid,junior
+29,female,bachelor's,back end developer,3,85000,0.10344827586206896,mid,junior
+48,male,phd,senior project engineer,16,190000,0.3333333333333333,senior,senior
+43,female,master's,software engineer manager,11,160000,0.2558139534883721,senior,mid_age
+54,male,phd,software engineer manager,17,195000,0.3148148148148148,senior,senior
+60,male,phd,software engineer manager,18,195000,0.3,senior,senior
+54,female,phd,software engineer manager,14,190000,0.25925925925925924,senior,senior
+27,female,master's,full stack engineer,3,95000,0.1111111111111111,mid,junior
+23,male,bachelor's,back end developer,1,55000,0.043478260869565216,junior,junior
+45,male,phd,senior software engineer,13,185000,0.28888888888888886,senior,senior
+32,female,master's,full stack engineer,5,120000,0.15625,mid,mid_age
+57,male,phd,software engineer manager,16,195000,0.2807017543859649,senior,senior
+47,male,phd,software engineer manager,14,175000,0.2978723404255319,senior,senior
+25,female,master's,back end developer,2,75000,0.08,junior,junior
+58,male,phd,software engineer manager,17,200000,0.29310344827586204,senior,senior
+41,female,master's,senior software engineer,12,160000,0.2926829268292683,senior,mid_age
+41,male,phd,software engineer manager,12,175000,0.2926829268292683,senior,mid_age
+47,male,phd,senior software engineer,15,180000,0.3191489361702128,senior,senior
+32,male,bachelor's,full stack engineer,5,120000,0.15625,mid,mid_age
+45,male,phd,senior project engineer,14,185000,0.3111111111111111,senior,senior
+53,male,phd,software engineer manager,18,195000,0.33962264150943394,senior,senior
+47,female,phd,senior software engineer,14,170000,0.2978723404255319,senior,senior
+23,male,bachelor's,front end developer,1,55000,0.043478260869565216,junior,junior
+33,male,master's,back end developer,6,130000,0.18181818181818182,mid,mid_age
+42,male,phd,software engineer manager,14,180000,0.3333333333333333,senior,mid_age
+37,male,master's,senior software engineer,9,145000,0.24324324324324326,mid,mid_age
+44,female,master's,senior project engineer,12,170000,0.2727272727272727,senior,mid_age
+38,female,master's,back end developer,10,155000,0.2631578947368421,senior,mid_age
+34,male,master's,full stack engineer,6,125000,0.17647058823529413,mid,mid_age
+46,female,phd,software engineer manager,14,180000,0.30434782608695654,senior,senior
+30,male,bachelor's,back end developer,4,95000,0.13333333333333333,mid,mid_age
+44,female,master's,senior software engineer,11,170000,0.25,senior,mid_age
+42,male,phd,senior project engineer,14,175000,0.3333333333333333,senior,mid_age
+27,male,bachelor's,front end developer,3,80000,0.1111111111111111,mid,junior
+54,male,phd,software engineer manager,18,195000,0.3333333333333333,senior,senior
+38,male,master's,senior software engineer,10,155000,0.2631578947368421,senior,mid_age
+31,male,master's,senior project engineer,6,125000,0.1935483870967742,mid,mid_age
+28,female,master's,full stack engineer,4,110000,0.14285714285714285,mid,junior
+30,female,master's,back end developer,6,130000,0.2,mid,mid_age
+54,male,phd,software engineer manager,16,190000,0.2962962962962963,senior,senior
+37,male,master's,senior software engineer,9,150000,0.24324324324324326,mid,mid_age
+31,male,master's,senior software engineer,7,140000,0.22580645161290322,mid,mid_age
+58,female,phd,software engineer manager,17,195000,0.29310344827586204,senior,senior
+23,female,bachelor's,back end developer,1,55000,0.043478260869565216,junior,junior
+52,female,phd,software engineer manager,16,190000,0.3076923076923077,senior,senior
+32,female,master's,full stack engineer,6,130000,0.1875,mid,mid_age
+32,male,master's,back end developer,6,130000,0.1875,mid,mid_age
+34,male,master's,full stack engineer,7,140000,0.20588235294117646,mid,mid_age
+28,male,bachelor's,front end developer,2,70000,0.07142857142857142,junior,junior
+44,male,master's,senior project engineer,11,170000,0.25,senior,mid_age
+46,male,phd,software engineer manager,14,180000,0.30434782608695654,senior,senior
+27,female,master's,back end developer,2,70000,0.07407407407407407,junior,junior
+23,female,bachelor's,front end developer,1,55000,0.043478260869565216,junior,junior
+43,male,phd,software engineer manager,13,180000,0.3023255813953488,senior,mid_age
+28,female,bachelor's,front end developer,2,70000,0.07142857142857142,junior,junior
+43,male,master's,senior project engineer,12,165000,0.27906976744186046,senior,mid_age
+43,male,phd,senior project engineer,13,185000,0.3023255813953488,senior,mid_age
+36,male,master's,senior software engineer,7,140000,0.19444444444444445,mid,mid_age
+28,female,bachelor's,front end developer,3,80000,0.10714285714285714,mid,junior
+28,female,master's,back end developer,3,90000,0.10714285714285714,mid,junior
+43,male,phd,senior software engineer,12,170000,0.27906976744186046,senior,mid_age
+44,male,phd,senior project engineer,12,170000,0.2727272727272727,senior,mid_age
+37,male,master's,senior software engineer,10,155000,0.2702702702702703,senior,mid_age
+56,male,phd,software engineer manager,18,195000,0.32142857142857145,senior,senior
+27,male,bachelor's,front end developer,2,70000,0.07407407407407407,junior,junior
+31,male,master's,full stack engineer,7,140000,0.22580645161290322,mid,mid_age
+50,male,phd,software engineer manager,16,190000,0.32,senior,senior
+33,male,master's,full stack engineer,6,130000,0.18181818181818182,mid,mid_age
+41,male,phd,senior project engineer,12,165000,0.2926829268292683,senior,mid_age
+24,female,bachelor's,front end developer,1,55000,0.041666666666666664,junior,junior
+43,male,phd,senior project engineer,12,165000,0.27906976744186046,senior,mid_age
+58,male,phd,software engineer manager,17,195000,0.29310344827586204,senior,senior
+29,female,bachelor's,front end developer,3,85000,0.10344827586206896,mid,junior
+52,male,phd,software engineer manager,18,200000,0.34615384615384615,senior,senior
+36,male,master's,full stack engineer,8,140000,0.2222222222222222,mid,mid_age
+26,male,bachelor's,back end developer,2,65000,0.07692307692307693,junior,junior
+47,male,phd,senior project engineer,16,190000,0.3404255319148936,senior,senior
+32,male,master's,full stack engineer,6,120000,0.1875,mid,mid_age
+57,male,phd,software engineer manager,18,200000,0.3157894736842105,senior,senior
+51,male,phd,software engineer manager,16,190000,0.3137254901960784,senior,senior
+27,female,master's,back end developer,2,65000,0.07407407407407407,junior,junior
+36,male,master's,full stack engineer,7,130000,0.19444444444444445,mid,mid_age
+33,female,master's,full stack engineer,5,120000,0.15151515151515152,mid,mid_age
+25,male,bachelor's,front end developer,1,55000,0.04,junior,junior
+40,male,phd,senior software engineer,12,160000,0.3,senior,mid_age
+36,male,master's,senior software engineer,8,140000,0.2222222222222222,mid,mid_age
+31,male,master's,senior project engineer,7,135000,0.22580645161290322,mid,mid_age
+24,male,bachelor's,back end developer,1,55000,0.041666666666666664,junior,junior
+34,male,bachelor's,front end developer,5,95000,0.14705882352941177,mid,mid_age
+43,female,master's,senior software engineer,12,170000,0.27906976744186046,senior,mid_age
+27,male,bachelor's,back end developer,2,75000,0.07407407407407407,junior,junior
+56,female,phd,software engineer manager,18,210000,0.32142857142857145,senior,senior
+32,male,master's,full stack engineer,7,135000,0.21875,mid,mid_age
+46,male,phd,senior project engineer,16,190000,0.34782608695652173,senior,senior
+41,female,phd,senior project engineer,11,165000,0.2682926829268293,senior,mid_age
+34,male,bachelor's,back end developer,6,120000,0.17647058823529413,mid,mid_age
+40,female,phd,senior software engineer,12,160000,0.3,senior,mid_age
+24,male,bachelor's,front end developer,1,55000,0.041666666666666664,junior,junior
+36,male,bachelor's,front end developer,7,120000,0.19444444444444445,mid,mid_age
+29,female,master's,back end developer,3,90000,0.10344827586206896,mid,junior
+41,female,phd,software engineer manager,14,180000,0.34146341463414637,senior,mid_age
+33,male,bachelor's,full stack engineer,7,130000,0.21212121212121213,mid,mid_age
+42,male,phd,senior software engineer,12,170000,0.2857142857142857,senior,mid_age
+28,male,bachelor's,back end developer,2,70000,0.07142857142857142,junior,junior
+55,male,phd,software engineer manager,18,210000,0.32727272727272727,senior,senior
+26,female,master's,front end developer,1,55000,0.038461538461538464,junior,junior
+44,female,phd,software engineer manager,11,165000,0.25,senior,mid_age
+30,male,master's,full stack engineer,5,105000,0.16666666666666666,mid,mid_age
+39,female,master's,senior software engineer,11,160000,0.28205128205128205,senior,mid_age
+32,male,bachelor's,front end developer,6,110000,0.1875,mid,mid_age
+50,male,phd,software engineer manager,17,195000,0.34,senior,senior
+27,male,bachelor's,back end developer,3,85000,0.1111111111111111,mid,junior
+46,male,phd,senior project engineer,14,180000,0.30434782608695654,senior,senior
+25,female,bachelor's,front end developer,1,55000,0.04,junior,junior
+35,male,bachelor's,back end developer,8,140000,0.22857142857142856,mid,mid_age
+35,male,bachelor's,full stack engineer,8,145000,0.22857142857142856,mid,mid_age
+41,male,phd,senior project engineer,13,185000,0.3170731707317073,senior,mid_age
+33,male,bachelor's,front end developer,6,110000,0.18181818181818182,mid,mid_age
+31,male,bachelor's,front end developer,6,115000,0.1935483870967742,mid,mid_age
+42,female,master's,software engineer manager,13,170000,0.30952380952380953,senior,mid_age
+27,female,bachelor's,back end developer,3,80000,0.1111111111111111,mid,junior
+51,male,phd,senior project engineer,19,200000,0.37254901960784315,senior,senior
+34,female,master's,full stack engineer,7,130000,0.20588235294117646,mid,mid_age
+38,male,bachelor's,software engineer manager,11,155000,0.2894736842105263,senior,mid_age
+29,male,bachelor's,front end developer,5,105000,0.1724137931034483,mid,junior
+43,female,phd,senior project engineer,14,190000,0.32558139534883723,senior,mid_age
+36,male,master's,back end developer,8,140000,0.2222222222222222,mid,mid_age
+48,male,phd,software engineer manager,16,185000,0.3333333333333333,senior,senior
+35,female,bachelor's,full stack engineer,8,145000,0.22857142857142856,mid,mid_age
+30,female,master's,front end developer,4,90000,0.13333333333333333,mid,mid_age
+50,male,phd,senior project engineer,18,195000,0.36,senior,senior
+29,male,bachelor's,back end developer,4,95000,0.13793103448275862,mid,junior
+41,male,master's,software engineer manager,13,170000,0.3170731707317073,senior,mid_age
+33,female,bachelor's,full stack engineer,6,115000,0.18181818181818182,mid,mid_age
+45,male,phd,senior project engineer,16,185000,0.35555555555555557,senior,senior
+28,female,bachelor's,front end developer,2,65000,0.07142857142857142,junior,junior
+39,female,master's,software engineer manager,12,160000,0.3076923076923077,senior,mid_age
+30,male,bachelor's,back end developer,5,100000,0.16666666666666666,mid,mid_age
+46,male,phd,senior project engineer,15,180000,0.32608695652173914,senior,senior
+42,male,phd,software engineer manager,14,190000,0.3333333333333333,senior,mid_age
+31,male,bachelor's,full stack engineer,6,115000,0.1935483870967742,mid,mid_age
+49,female,phd,senior project engineer,17,195000,0.3469387755102041,senior,senior
+36,male,master's,back end developer,9,150000,0.25,mid,mid_age
+45,male,phd,software engineer manager,16,185000,0.35555555555555557,senior,senior
+29,male,bachelor's,front end developer,4,90000,0.13793103448275862,mid,junior
+40,female,master's,software engineer manager,12,160000,0.3,senior,mid_age
+33,female,master's,full stack engineer,6,115000,0.18181818181818182,mid,mid_age
+37,male,bachelor's,software engineer manager,10,150000,0.2702702702702703,senior,mid_age
+28,male,bachelor's,front end developer,2,65000,0.07142857142857142,junior,junior
+44,female,phd,senior project engineer,14,190000,0.3181818181818182,senior,mid_age
+35,male,master's,back end developer,8,140000,0.22857142857142856,mid,mid_age
+47,male,phd,software engineer manager,16,185000,0.3404255319148936,senior,senior
+34,female,bachelor's,full stack engineer,7,130000,0.20588235294117646,mid,mid_age
+31,female,master's,front end developer,5,105000,0.16129032258064516,mid,mid_age
+42,male,master's,software engineer manager,13,170000,0.30952380952380953,senior,mid_age
+29,female,bachelor's,front end developer,4,90000,0.13793103448275862,mid,junior
+27,male,bachelor's,back end developer,3,80000,0.1111111111111111,mid,junior
+49,male,phd,senior project engineer,17,195000,0.3469387755102041,senior,senior
+32,female,master's,full stack engineer,6,115000,0.1875,mid,mid_age
+36,male,bachelor's,software engineer manager,8,135000,0.2222222222222222,mid,mid_age
+27,male,bachelor's,front end developer,2,65000,0.07407407407407407,junior,junior
+34,male,master's,back end developer,8,140000,0.23529411764705882,mid,mid_age
+46,male,phd,software engineer manager,16,185000,0.34782608695652173,senior,senior
+33,female,bachelor's,full stack engineer,7,130000,0.21212121212121213,mid,mid_age
+30,female,master's,front end developer,5,105000,0.16666666666666666,mid,mid_age
+50,male,phd,senior project engineer,19,200000,0.38,senior,senior
+31,female,bachelor's,front end developer,6,110000,0.1935483870967742,mid,mid_age
+37,male,master's,software engineer manager,10,150000,0.2702702702702703,senior,mid_age
+31,male,master's,software engineer manager,8,130000,0.25806451612903225,mid,mid_age
+43,male,phd,senior project engineer,15,180000,0.3488372093023256,senior,mid_age
+35,female,master's,full stack engineer,8,140000,0.22857142857142856,mid,mid_age
+42,male,bachelor's,software engineer manager,12,160000,0.2857142857142857,senior,mid_age
+28,female,bachelor's,front end developer,2,55000,0.07142857142857142,junior,junior
+44,female,phd,senior project engineer,16,190000,0.36363636363636365,senior,mid_age
+32,male,master's,back end developer,7,120000,0.21875,mid,mid_age
+48,male,phd,software engineer manager,18,200000,0.375,senior,senior
+30,female,bachelor's,full stack engineer,5,100000,0.16666666666666666,mid,mid_age
+34,male,master's,front end developer,9,150000,0.2647058823529412,mid,mid_age
+37,female,bachelor's,software engineer manager,11,170000,0.2972972972972973,senior,mid_age
+49,female,phd,senior project engineer,19,210000,0.3877551020408163,senior,senior
+29,male,bachelor's,full stack engineer,4,90000,0.13793103448275862,mid,junior
+41,male,master's,software engineer manager,14,180000,0.34146341463414637,senior,mid_age
+46,female,phd,senior project engineer,16,185000,0.34782608695652173,senior,senior
+30,male,master's,front end developer,5,105000,0.16666666666666666,mid,mid_age
+50,male,phd,software engineer manager,20,210000,0.4,senior,senior
+31,male,bachelor's,back end developer,6,95000,0.1935483870967742,mid,mid_age
+39,female,master's,software engineer manager,11,170000,0.28205128205128205,senior,mid_age
+48,male,phd,software engineer manager,19,200000,0.3958333333333333,senior,senior
+28,male,bachelor's,software engineer,4,75000,0.14285714285714285,mid,junior
+33,female,master's,data analyst,7,95000,0.21212121212121213,mid,mid_age
+22,male,bachelor's,front end developer,1,50000,0.045454545454545456,junior,junior
+44,male,phd,senior data scientist,15,180000,0.3409090909090909,senior,mid_age
+29,female,bachelor's,software developer,3,65000,0.10344827586206896,mid,junior
+31,male,master's,product manager,6,120000,0.1935483870967742,mid,mid_age
+25,female,master's,software engineer,2,60000,0.08,junior,junior
+38,male,bachelor's,data scientist,10,150000,0.2631578947368421,senior,mid_age
+27,male,bachelor's,software engineer,3,70000,0.1111111111111111,mid,junior
+46,female,phd,director of data science,20,220000,0.43478260869565216,senior,senior
+33,male,master's,data analyst,8,100000,0.24242424242424243,mid,mid_age
+24,female,bachelor's,software developer,2,55000,0.08333333333333333,junior,junior
+36,male,phd,senior data scientist,12,170000,0.3333333333333333,senior,mid_age
+30,female,bachelor's,software engineer,5,90000,0.16666666666666666,mid,mid_age
+29,male,bachelor's,front end developer,4,80000,0.13793103448275862,mid,junior
+42,male,master's,product manager,14,180000,0.3333333333333333,senior,mid_age
+26,male,bachelor's,software developer,2,60000,0.07692307692307693,junior,junior
+35,female,master's,data analyst,9,120000,0.2571428571428571,mid,mid_age
+27,female,bachelor's,software engineer,3,70000,0.1111111111111111,mid,junior
+48,male,phd,director of data science,18,210000,0.375,senior,senior
+34,male,master's,data scientist,9,140000,0.2647058823529412,mid,mid_age
+23,female,bachelor's,software engineer,1,50000,0.043478260869565216,junior,junior
+32,male,master's,product manager,7,110000,0.21875,mid,mid_age
+37,male,bachelor's,data analyst,11,160000,0.2972972972972973,senior,mid_age
+41,female,phd,director of data science,16,200000,0.3902439024390244,senior,mid_age
+34,male,master's,data analyst,8,100000,0.23529411764705882,mid,mid_age
+34,female,bachelor's,full stack engineer,8,122485,0.23529411764705882,mid,mid_age
+25,male,phd,software engineer manager,12,169159,0.48,senior,junior
+43,male,master's,senior software engineer,21,187081,0.4883720930232558,senior,mid_age
+53,other,high school,senior project engineer,31,166109,0.5849056603773585,senior,senior
+27,female,master's,front end developer,5,78354,0.18518518518518517,mid,junior
+25,male,bachelor's,back end developer,2,90249,0.08,junior,junior
+29,female,master's,senior software engineer,6,132720,0.20689655172413793,mid,junior
+52,male,phd,software engineer manager,23,161568,0.4423076923076923,senior,senior
+41,male,master's,front end developer,13,127346,0.3170731707317073,senior,mid_age
+49,female,bachelor's,back end developer,19,120177,0.3877551020408163,senior,senior
+25,other,high school,full stack engineer,2,69032,0.08,junior,junior
+35,male,master's,senior project engineer,8,101332,0.22857142857142856,mid,mid_age
+57,female,phd,full stack engineer,30,121450,0.5263157894736842,senior,senior
+35,female,bachelor's,senior project engineer,12,166375,0.34285714285714286,senior,mid_age
+43,male,master's,senior software engineer,21,185119,0.4883720930232558,senior,mid_age
+37,female,bachelor's,full stack engineer,10,149217,0.2702702702702703,senior,mid_age
+50,male,master's,software engineer manager,21,166512,0.42,senior,senior
+52,female,master's,senior software engineer,28,186963,0.5384615384615384,senior,senior
+26,male,bachelor's,back end developer,3,75072,0.11538461538461539,mid,junior
+34,female,master's,full stack engineer,10,163398,0.29411764705882354,senior,mid_age
+30,male,high school,senior project engineer,11,103947,0.36666666666666664,senior,mid_age
+60,female,phd,software engineer manager,33,179180,0.55,senior,senior
+50,male,bachelor's,back end developer,23,175966,0.46,senior,senior
+58,male,master's,senior software engineer,27,190004,0.46551724137931033,senior,senior
+35,female,master's,full stack engineer,10,152039,0.2857142857142857,senior,mid_age
+28,male,master's,front end developer,5,76742,0.17857142857142858,mid,junior
+57,female,phd,software engineer manager,33,191790,0.5789473684210527,senior,senior
+46,female,bachelor's,senior software engineer,20,139398,0.43478260869565216,senior,senior
+28,male,high school,back end developer,7,95845,0.25,mid,junior
+34,male,master's,full stack engineer,12,160976,0.35294117647058826,senior,mid_age
+33,female,master's,senior project engineer,9,126753,0.2727272727272727,mid,mid_age
+37,other,master's,full stack engineer,14,161393,0.3783783783783784,senior,mid_age
+33,male,master's,senior software engineer,8,139817,0.24242424242424243,mid,mid_age
+53,male,phd,software engineer manager,25,181714,0.4716981132075472,senior,senior
+35,female,bachelor's,back end developer,10,114776,0.2857142857142857,senior,mid_age
+30,male,master's,full stack engineer,6,105725,0.2,mid,mid_age
+24,female,high school,senior project engineer,1,52731,0.041666666666666664,junior,junior
+36,male,master's,front end developer,8,106492,0.2222222222222222,mid,mid_age
+27,female,bachelor's,full stack engineer,4,73895,0.14814814814814814,mid,junior
+23,male,phd,software engineer manager,1,119836,0.043478260869565216,junior,junior
+28,female,master's,senior software engineer,5,99747,0.17857142857142858,mid,junior
+52,male,bachelor's,back end developer,25,168287,0.4807692307692308,senior,senior
+28,female,master's,full stack engineer,7,115920,0.25,mid,junior
+32,male,master's,senior project engineer,11,128078,0.34375,senior,mid_age
+24,female,bachelor's,front end developer,1,51265,0.041666666666666664,junior,junior
+43,male,high school,senior software engineer,22,165919,0.5116279069767442,senior,mid_age
+60,female,phd,software engineer manager,34,188651,0.5666666666666667,senior,senior
+24,male,master's,back end developer,0,55538,0.0,junior,junior
+55,male,bachelor's,senior project engineer,28,193964,0.509090909090909,senior,senior
+29,female,master's,full stack engineer,4,104702,0.13793103448275862,mid,junior
+44,male,phd,software engineer manager,19,172955,0.4318181818181818,senior,mid_age
+40,female,master's,senior software engineer,16,138032,0.4,senior,mid_age
+27,male,bachelor's,back end developer,4,82683,0.14814814814814814,mid,junior
+43,male,master's,full stack engineer,17,155414,0.3953488372093023,senior,mid_age
+49,female,high school,senior project engineer,25,154207,0.5102040816326531,senior,senior
+30,male,master's,front end developer,8,107895,0.26666666666666666,mid,mid_age
+42,female,bachelor's,senior software engineer,18,148446,0.42857142857142855,senior,mid_age
+26,male,master's,full stack engineer,4,102859,0.15384615384615385,mid,junior
+41,female,phd,software engineer manager,13,138662,0.3170731707317073,senior,mid_age
+46,male,bachelor's,senior project engineer,23,181699,0.5,senior,senior
+57,female,master's,full stack engineer,33,188232,0.5789473684210527,senior,senior
+22,female,high school,back end developer,0,51832,0.0,junior,junior
+54,male,phd,software engineer manager,28,188484,0.5185185185185185,senior,senior
+42,female,master's,senior software engineer,16,138286,0.38095238095238093,senior,mid_age
+49,male,bachelor's,full stack engineer,22,181132,0.4489795918367347,senior,senior
+27,female,master's,back end developer,4,73938,0.14814814814814814,mid,junior
+36,male,bachelor's,senior project engineer,14,119224,0.3888888888888889,senior,mid_age
+31,female,master's,full stack engineer,6,101186,0.1935483870967742,mid,mid_age
+39,male,master's,software engineer manager,14,142360,0.358974358974359,senior,mid_age
+41,female,bachelor's,senior project engineer,20,151315,0.4878048780487805,senior,mid_age
+48,male,phd,full stack engineer,23,181021,0.4791666666666667,senior,senior
+39,female,master's,senior software engineer,15,134641,0.38461538461538464,senior,mid_age
+48,male,bachelor's,front end developer,23,173851,0.4791666666666667,senior,senior
+31,other,high school,back end developer,8,104127,0.25806451612903225,mid,mid_age
+47,male,master's,senior project engineer,25,178859,0.5319148936170213,senior,senior
+29,female,phd,full stack engineer,5,98568,0.1724137931034483,mid,junior
+32,male,bachelor's,software engineer manager,9,104661,0.28125,mid,mid_age
+38,female,master's,senior software engineer,13,134858,0.34210526315789475,senior,mid_age
+34,male,bachelor's,back end developer,10,94502,0.29411764705882354,senior,mid_age
+23,other,high school,front end developer,2,62852,0.08695652173913043,junior,junior
+36,male,bachelor's,front end developer,14,139095,0.3888888888888889,senior,mid_age
+30,female,master's,senior project engineer,5,106278,0.16666666666666666,mid,mid_age
+28,male,master's,full stack engineer,4,90452,0.14285714285714285,mid,junior
+46,female,phd,software engineer manager,23,168304,0.5,senior,senior
+34,male,bachelor's,back end developer,10,126593,0.29411764705882354,senior,mid_age
+44,male,master's,senior software engineer,19,152203,0.4318181818181818,senior,mid_age
+55,female,phd,software engineer manager,30,183138,0.5454545454545454,senior,senior
+35,male,master's,full stack engineer,9,130275,0.2571428571428571,mid,mid_age
+54,male,bachelor's,senior project engineer,29,191915,0.5370370370370371,senior,senior
+23,female,high school,back end developer,2,62807,0.08695652173913043,junior,junior
+46,male,master's,senior software engineer,21,174305,0.45652173913043476,senior,senior
+33,female,bachelor's,full stack engineer,9,133326,0.2727272727272727,mid,mid_age
+26,male,master's,front end developer,4,75656,0.15384615384615385,mid,junior
+43,female,phd,software engineer manager,19,155944,0.4418604651162791,senior,mid_age
+36,male,master's,full stack engineer,11,137775,0.3055555555555556,senior,mid_age
+23,female,bachelor's,senior project engineer,0,51831,0.0,junior,junior
+49,male,master's,software engineer manager,22,182237,0.4489795918367347,senior,senior
+35,female,master's,full stack engineer,10,151901,0.2857142857142857,senior,mid_age
+31,male,bachelor's,back end developer,8,100052,0.25806451612903225,mid,mid_age
+54,other,high school,senior software engineer,29,158254,0.5370370370370371,senior,senior
+43,male,master's,full stack engineer,20,167207,0.46511627906976744,senior,mid_age
+33,female,master's,senior project engineer,10,112439,0.30303030303030304,senior,mid_age
+52,female,phd,software engineer manager,29,194214,0.5576923076923077,senior,senior
+28,male,bachelor's,full stack engineer,5,84407,0.17857142857142858,mid,junior
+36,female,master's,senior software engineer,13,139413,0.3611111111111111,senior,mid_age
+43,male,bachelor's,senior project engineer,20,143084,0.46511627906976744,senior,mid_age
+50,female,master's,full stack engineer,25,192344,0.5,senior,senior
+24,male,phd,software engineer manager,1,106132,0.041666666666666664,junior,junior
+52,male,master's,senior software engineer,26,184816,0.5,senior,senior
+46,female,bachelor's,back end developer,19,150248,0.41304347826086957,senior,senior
+38,male,master's,full stack engineer,15,170995,0.39473684210526316,senior,mid_age
+29,male,bachelor's,senior project engineer,6,88035,0.20689655172413793,mid,junior
+33,female,master's,front end developer,10,119419,0.30303030303030304,senior,mid_age
+47,male,phd,software engineer manager,21,173582,0.44680851063829785,senior,senior
+45,female,master's,senior software engineer,23,174436,0.5111111111111111,senior,senior
+28,male,bachelor's,back end developer,4,71699,0.14285714285714285,mid,junior
+42,female,master's,full stack engineer,14,163558,0.3333333333333333,senior,mid_age
+46,male,bachelor's,senior project engineer,24,166828,0.5217391304347826,senior,senior
+38,female,phd,software engineer manager,15,144496,0.39473684210526316,senior,mid_age
+54,male,master's,senior software engineer,31,193746,0.5740740740740741,senior,senior
+33,female,master's,full stack engineer,8,122581,0.24242424242424243,mid,mid_age
+27,male,high school,back end developer,4,79767,0.14814814814814814,mid,junior
+50,female,bachelor's,senior project engineer,25,177177,0.5,senior,senior
+26,male,master's,full stack engineer,4,89843,0.15384615384615385,mid,junior
+31,female,master's,senior software engineer,6,113563,0.1935483870967742,mid,mid_age
+35,male,bachelor's,front end developer,10,128712,0.2857142857142857,senior,mid_age
+44,female,phd,software engineer manager,18,161621,0.4090909090909091,senior,mid_age
+32,male,master's,senior project engineer,8,121454,0.25,mid,mid_age
+54,male,bachelor's,full stack engineer,25,179987,0.46296296296296297,senior,senior
+26,female,master's,front end developer,3,72649,0.11538461538461539,mid,junior
+23,male,phd,software engineer manager,0,52612,0.0,junior,junior
+48,female,master's,senior software engineer,24,184006,0.5,senior,senior
+38,male,bachelor's,back end developer,12,131960,0.3157894736842105,senior,mid_age
+30,female,master's,full stack engineer,5,102465,0.16666666666666666,mid,mid_age
+40,male,master's,software engineer manager,16,149748,0.4,senior,mid_age
+45,female,bachelor's,senior project engineer,22,171036,0.4888888888888889,senior,senior
+36,male,master's,full stack engineer,13,146351,0.3611111111111111,senior,mid_age
+52,male,phd,software engineer manager,26,185462,0.5,senior,senior
+31,female,bachelor's,senior software engineer,7,107718,0.22580645161290322,mid,mid_age
+26,male,master's,full stack engineer,4,90944,0.15384615384615385,mid,junior
+30,female,master's,senior project engineer,5,100425,0.16666666666666666,mid,mid_age
+24,male,bachelor's,back end developer,2,63901,0.08333333333333333,junior,junior
+45,male,master's,senior software engineer,22,181902,0.4888888888888889,senior,senior
+33,female,master's,full stack engineer,9,136533,0.2727272727272727,mid,mid_age
+38,male,bachelor's,front end developer,11,136285,0.2894736842105263,senior,mid_age
+54,female,phd,software engineer manager,31,191818,0.5740740740740741,senior,senior
+42,male,master's,full stack engineer,19,176643,0.4523809523809524,senior,mid_age
+28,female,bachelor's,senior project engineer,4,70022,0.14285714285714285,mid,junior
+30,male,master's,front end developer,6,99363,0.2,mid,mid_age
+43,female,master's,senior software engineer,19,152944,0.4418604651162791,senior,mid_age
+35,male,bachelor's,back end developer,10,123386,0.2857142857142857,senior,mid_age
+44,male,master's,full stack engineer,21,168906,0.4772727272727273,senior,mid_age
+55,female,bachelor's,senior project engineer,30,183020,0.5454545454545454,senior,senior
+23,male,high school,front end developer,1,47898,0.043478260869565216,junior,junior
+39,female,master's,senior software engineer,14,135853,0.358974358974359,senior,mid_age
+43,male,bachelor's,full stack engineer,17,149198,0.3953488372093023,senior,mid_age
+29,male,phd,software engineer manager,6,106662,0.20689655172413793,mid,junior
+51,male,master's,senior software engineer,28,186610,0.5490196078431373,senior,senior
+30,female,bachelor's,senior project engineer,6,89995,0.2,mid,mid_age
+26,male,master's,full stack engineer,4,85825,0.15384615384615385,mid,junior
+39,female,phd,software engineer manager,13,143814,0.3333333333333333,senior,mid_age
+49,male,master's,front end developer,24,174726,0.4897959183673469,senior,senior
+42,female,bachelor's,senior software engineer,20,150534,0.47619047619047616,senior,mid_age
+27,male,bachelor's,back end developer,4,68732,0.14814814814814814,mid,junior
+43,male,master's,full stack engineer,21,187951,0.4883720930232558,senior,mid_age
+37,female,bachelor's,senior project engineer,13,137336,0.35135135135135137,senior,mid_age
+51,male,phd,software engineer manager,26,191159,0.5098039215686274,senior,senior
+29,female,master's,full stack engineer,5,102868,0.1724137931034483,mid,junior
+43,male,bachelor's,senior software engineer,20,154281,0.46511627906976744,senior,mid_age
+31,male,master's,back end developer,8,111535,0.25806451612903225,mid,mid_age
+30,female,master's,senior project engineer,6,107906,0.2,mid,mid_age
+36,male,bachelor's,full stack engineer,13,143885,0.3611111111111111,senior,mid_age
+52,female,phd,software engineer manager,27,180958,0.5192307692307693,senior,senior
+28,male,master's,senior software engineer,6,108607,0.21428571428571427,mid,junior
+49,male,bachelor's,back end developer,24,178284,0.4897959183673469,senior,senior
+27,female,master's,front end developer,4,75969,0.14814814814814814,mid,junior
+41,male,master's,senior project engineer,15,143705,0.36585365853658536,senior,mid_age
+56,female,phd,software engineer manager,31,197354,0.5535714285714286,senior,senior
+46,male,bachelor's,senior software engineer,22,174324,0.4782608695652174,senior,senior
+32,female,master's,full stack engineer,8,123781,0.25,mid,mid_age
+38,male,phd,software engineer manager,12,141735,0.3157894736842105,senior,mid_age
+52,male,master's,senior project engineer,28,187120,0.5384615384615384,senior,senior
+24,female,bachelor's,back end developer,1,61095,0.041666666666666664,junior,junior
+49,male,master's,full stack engineer,22,179045,0.4489795918367347,senior,senior
+35,female,master's,senior software engineer,10,130355,0.2857142857142857,senior,mid_age
+31,male,bachelor's,front end developer,7,103282,0.22580645161290322,mid,mid_age
+44,female,phd,software engineer manager,18,157872,0.4090909090909091,senior,mid_age
+33,male,master's,senior project engineer,10,117314,0.30303030303030304,senior,mid_age
+54,male,bachelor's,senior software engineer,30,186321,0.5555555555555556,senior,senior
+33,female,master's,full stack engineer,11,129686,0.3333333333333333,senior,mid_age
+27,male,high school,back end developer,3,68611,0.1111111111111111,mid,junior
+51,female,master's,senior project engineer,25,177913,0.49019607843137253,senior,senior
+26,male,master's,full stack engineer,3,68472,0.11538461538461539,mid,junior
+31,female,master's,senior software engineer,6,113065,0.1935483870967742,mid,mid_age
+35,male,bachelor's,front end developer,9,125091,0.2571428571428571,mid,mid_age
+45,female,phd,software engineer manager,23,172925,0.5111111111111111,senior,senior
+32,male,master's,senior project engineer,9,126916,0.28125,mid,mid_age
+54,male,bachelor's,full stack engineer,27,183417,0.5,senior,senior
+26,female,master's,front end developer,4,76898,0.15384615384615385,mid,junior
+26,female,bachelor's,software engineer,2,65000,0.07692307692307693,junior,junior
+33,male,master's,data analyst,8,120000,0.24242424242424243,mid,mid_age
+29,female,bachelor's,product manager,4,90000,0.13793103448275862,mid,junior
+41,male,phd,data scientist,15,190000,0.36585365853658536,senior,mid_age
+35,female,master's,software engineer,9,140000,0.2571428571428571,mid,mid_age
+28,male,bachelor's,software developer,3,75000,0.10714285714285714,mid,junior
+37,female,master's,data scientist,11,160000,0.2972972972972973,senior,mid_age
+33,male,bachelor's,product manager,8,130000,0.24242424242424243,mid,mid_age
+24,female,master's,software engineer,2,60000,0.08333333333333333,junior,junior
+46,male,phd,director of data science,20,220000,0.43478260869565216,senior,senior
+29,female,bachelor's,software developer,5,80000,0.1724137931034483,mid,junior
+31,male,master's,data scientist,7,130000,0.22580645161290322,mid,mid_age
+27,female,bachelor's,software engineer,3,65000,0.1111111111111111,mid,junior
+38,male,phd,senior data scientist,13,170000,0.34210526315789475,senior,mid_age
+30,female,master's,product manager,6,110000,0.2,mid,mid_age
+25,male,bachelor's,front end developer,2,50000,0.08,junior,junior
+44,male,phd,director of data science,18,210000,0.4090909090909091,senior,mid_age
+33,female,master's,data analyst,8,100000,0.24242424242424243,mid,mid_age
+22,male,bachelor's,software engineer,1,50000,0.045454545454545456,junior,junior
+36,male,master's,product manager,10,160000,0.2777777777777778,senior,mid_age
+28,female,bachelor's,software engineer,4,70000,0.14285714285714285,mid,junior
+41,male,phd,senior data scientist,16,190000,0.3902439024390244,senior,mid_age
+34,female,master's,data scientist,9,140000,0.2647058823529412,mid,mid_age
+23,male,bachelor's,software developer,1,45000,0.043478260869565216,junior,junior
+32,female,master's,product manager,7,120000,0.21875,mid,mid_age
+25,male,master's,software engineer,2,60000,0.08,junior,junior
+37,female,bachelor's,data analyst,11,150000,0.2972972972972973,senior,mid_age
+28,male,bachelor's,software engineer,4,70000,0.14285714285714285,mid,junior
+29,female,bachelor's,full stack engineer,6,103579,0.20689655172413793,mid,junior
+45,male,master's,software engineer manager,19,163780,0.4222222222222222,senior,senior
+36,male,bachelor's,front end developer,12,137878,0.3333333333333333,senior,mid_age
+30,female,master's,senior project engineer,4,92438,0.13333333333333333,mid,mid_age
+28,male,master's,full stack engineer,5,84181,0.17857142857142858,mid,junior
+46,female,phd,software engineer manager,21,174821,0.45652173913043476,senior,senior
+34,male,bachelor's,back end developer,10,126520,0.29411764705882354,senior,mid_age
+44,male,master's,senior software engineer,18,152168,0.4090909090909091,senior,mid_age
+55,female,phd,software engineer manager,29,190543,0.5272727272727272,senior,senior
+35,male,master's,full stack engineer,9,131547,0.2571428571428571,mid,mid_age
+54,male,bachelor's,senior project engineer,28,192292,0.5185185185185185,senior,senior
+23,female,high school,back end developer,1,52807,0.043478260869565216,junior,junior
+46,male,master's,senior software engineer,20,174938,0.43478260869565216,senior,senior
+33,female,bachelor's,full stack engineer,8,124071,0.24242424242424243,mid,mid_age
+26,male,master's,front end developer,3,73640,0.11538461538461539,mid,junior
+43,female,phd,software engineer manager,19,156486,0.4418604651162791,senior,mid_age
+36,male,master's,full stack engineer,11,138859,0.3055555555555556,senior,mid_age
+23,female,bachelor's,senior project engineer,0,52831,0.0,junior,junior
+49,male,master's,software engineer manager,23,182392,0.46938775510204084,senior,senior
+35,female,master's,full stack engineer,11,151078,0.3142857142857143,senior,mid_age
+31,male,bachelor's,back end developer,8,100679,0.25806451612903225,mid,mid_age
+54,other,high school,senior software engineer,29,158966,0.5370370370370371,senior,senior
+43,male,master's,full stack engineer,20,167924,0.46511627906976744,senior,mid_age
+33,female,master's,senior project engineer,10,113334,0.30303030303030304,senior,mid_age
+52,female,phd,software engineer manager,29,194778,0.5576923076923077,senior,senior
+28,male,bachelor's,full stack engineer,4,77606,0.14285714285714285,mid,junior
+36,female,master's,senior software engineer,13,140010,0.3611111111111111,senior,mid_age
+43,male,bachelor's,senior project engineer,20,142421,0.46511627906976744,senior,mid_age
+50,female,master's,full stack engineer,24,192756,0.48,senior,senior
+24,male,phd,software engineer manager,1,106686,0.041666666666666664,junior,junior
+52,male,master's,senior software engineer,27,186794,0.5192307692307693,senior,senior
+46,female,bachelor's,back end developer,19,150729,0.41304347826086957,senior,senior
+38,male,master's,full stack engineer,15,171652,0.39473684210526316,senior,mid_age
+29,male,bachelor's,senior project engineer,6,88552,0.20689655172413793,mid,junior
+33,female,master's,front end developer,9,119918,0.2727272727272727,mid,mid_age
+47,male,phd,software engineer manager,21,174985,0.44680851063829785,senior,senior
+45,female,master's,senior software engineer,23,174336,0.5111111111111111,senior,senior
+28,male,bachelor's,back end developer,4,72389,0.14285714285714285,mid,junior
+42,female,master's,full stack engineer,14,163978,0.3333333333333333,senior,mid_age
+46,male,bachelor's,senior project engineer,25,166958,0.5434782608695652,senior,senior
+38,female,phd,software engineer manager,15,145052,0.39473684210526316,senior,mid_age
+54,male,master's,senior software engineer,32,195270,0.5925925925925926,senior,senior
+33,female,master's,full stack engineer,8,122970,0.24242424242424243,mid,mid_age
+27,male,high school,back end developer,4,80247,0.14814814814814814,mid,junior
+50,female,bachelor's,senior project engineer,25,177862,0.5,senior,senior
+26,male,master's,full stack engineer,4,91062,0.15384615384615385,mid,junior
+31,female,master's,senior software engineer,6,114290,0.1935483870967742,mid,mid_age
+35,male,bachelor's,front end developer,10,128999,0.2857142857142857,senior,mid_age
+44,female,phd,software engineer manager,18,162454,0.4090909090909091,senior,mid_age
+32,male,master's,senior project engineer,8,122354,0.25,mid,mid_age
+54,male,bachelor's,full stack engineer,25,179756,0.46296296296296297,senior,senior
+26,female,master's,front end developer,3,73218,0.11538461538461539,mid,junior
+48,female,master's,senior software engineer,24,184480,0.5,senior,senior
+38,male,bachelor's,back end developer,12,132442,0.3157894736842105,senior,mid_age
+30,female,master's,full stack engineer,5,102828,0.16666666666666666,mid,mid_age
+40,male,master's,software engineer manager,16,150301,0.4,senior,mid_age
+45,female,bachelor's,senior project engineer,22,171468,0.4888888888888889,senior,senior
+36,male,master's,full stack engineer,13,147326,0.3611111111111111,senior,mid_age
+52,male,phd,software engineer manager,26,185982,0.5,senior,senior
+31,female,bachelor's,senior software engineer,7,108267,0.22580645161290322,mid,mid_age
+26,male,master's,full stack engineer,4,91397,0.15384615384615385,mid,junior
+30,female,master's,senior project engineer,5,100867,0.16666666666666666,mid,mid_age
+24,male,bachelor's,back end developer,2,64182,0.08333333333333333,junior,junior
+45,male,master's,senior software engineer,22,182506,0.4888888888888889,senior,senior
+33,female,master's,full stack engineer,9,136986,0.2727272727272727,mid,mid_age
+38,male,bachelor's,front end developer,11,136662,0.2894736842105263,senior,mid_age
+54,female,phd,software engineer manager,32,191510,0.5925925925925926,senior,senior
+42,male,master's,full stack engineer,19,177347,0.4523809523809524,senior,mid_age
+28,female,bachelor's,senior project engineer,3,70397,0.10714285714285714,mid,junior
+34,male,master's,software engineer manager,9,146075,0.2647058823529412,mid,mid_age
+46,female,bachelor's,back end developer,18,155795,0.391304347826087,senior,senior
+35,male,master's,full stack engineer,9,132638,0.2571428571428571,mid,mid_age
+49,female,phd,software engineer manager,22,178684,0.4489795918367347,senior,senior
+32,male,bachelor's,senior software engineer,7,106218,0.21875,mid,mid_age
+54,male,master's,full stack engineer,28,191239,0.5185185185185185,senior,senior
+26,female,master's,front end developer,2,65840,0.07692307692307693,junior,junior
+23,male,phd,software engineer manager,0,52779,0.0,junior,junior
+48,female,master's,senior software engineer,23,185038,0.4791666666666667,senior,senior
+38,male,bachelor's,back end developer,14,136449,0.3684210526315789,senior,mid_age
+30,female,master's,full stack engineer,6,110707,0.2,mid,mid_age
+40,male,master's,software engineer manager,17,151670,0.425,senior,mid_age
+45,female,bachelor's,senior project engineer,21,167015,0.4666666666666667,senior,senior
+36,male,master's,full stack engineer,13,146508,0.3611111111111111,senior,mid_age
+52,male,phd,software engineer manager,27,190596,0.5192307692307693,senior,senior
+31,female,bachelor's,senior software engineer,6,104378,0.1935483870967742,mid,mid_age
+26,male,master's,full stack engineer,3,70216,0.11538461538461539,mid,junior
+30,female,master's,senior project engineer,5,101733,0.16666666666666666,mid,mid_age
+24,male,bachelor's,back end developer,1,55935,0.041666666666666664,junior,junior
+45,male,master's,senior software engineer,21,180367,0.4666666666666667,senior,senior
+33,female,master's,full stack engineer,9,135596,0.2727272727272727,mid,mid_age
+38,male,bachelor's,front end developer,11,136062,0.2894736842105263,senior,mid_age
+54,female,phd,software engineer manager,32,191267,0.5925925925925926,senior,senior
+26,male,master's,full stack engineer,3,91397,0.11538461538461539,mid,junior
+28,female,bachelor's,senior project engineer,4,82944,0.14285714285714285,mid,junior
+48,male,phd,software engineer manager,23,188288,0.4791666666666667,senior,senior
+36,female,master's,senior software engineer,14,141090,0.3888888888888889,senior,mid_age
+43,male,bachelor's,full stack engineer,19,152726,0.4418604651162791,senior,mid_age
+33,female,master's,back end developer,9,124141,0.2727272727272727,mid,mid_age
+26,male,bachelor's,front end developer,3,67556,0.11538461538461539,mid,junior
+50,female,master's,senior project engineer,22,182768,0.44,senior,senior
+41,male,phd,software engineer manager,15,148727,0.36585365853658536,senior,mid_age
+29,female,bachelor's,full stack engineer,6,91903,0.20689655172413793,mid,junior
+38,male,master's,senior software engineer,14,147708,0.3684210526315789,senior,mid_age
+48,female,bachelor's,senior project engineer,21,163209,0.4375,senior,senior
+31,male,master's,full stack engineer,8,120288,0.25806451612903225,mid,mid_age
+45,male,phd,software engineer manager,21,170226,0.4666666666666667,senior,senior
+35,female,master's,senior software engineer,11,134979,0.3142857142857143,senior,mid_age
+42,male,bachelor's,back end developer,16,137489,0.38095238095238093,senior,mid_age
+27,female,master's,full stack engineer,4,83577,0.14814814814814814,mid,junior
+33,male,bachelor's,front end developer,9,117904,0.2727272727272727,mid,mid_age
+36,female,master's,senior project engineer,11,134482,0.3055555555555556,senior,mid_age
+54,male,phd,software engineer manager,30,184660,0.5555555555555556,senior,senior
+30,female,bachelor's,senior software engineer,5,100151,0.16666666666666666,mid,mid_age
+26,male,master's,full stack engineer,3,88678,0.11538461538461539,mid,junior
+45,female,phd,senior project engineer,21,181285,0.4666666666666667,senior,senior
+38,male,master's,software engineer manager,16,154990,0.42105263157894735,senior,mid_age
+31,female,bachelor's,full stack engineer,7,108204,0.22580645161290322,mid,mid_age
+42,male,master's,senior software engineer,19,175684,0.4523809523809524,senior,mid_age
+28,female,bachelor's,back end developer,5,77766,0.17857142857142858,mid,junior
+48,male,phd,software engineer manager,24,192211,0.5,senior,senior
+36,female,master's,full stack engineer,13,144647,0.3611111111111111,senior,mid_age
+43,male,bachelor's,senior project engineer,20,162231,0.46511627906976744,senior,mid_age
+33,female,master's,front end developer,9,121120,0.2727272727272727,mid,mid_age
+26,male,bachelor's,full stack engineer,4,79652,0.15384615384615385,mid,junior
+50,female,master's,senior software engineer,21,177002,0.42,senior,senior
+27,male,master's,back end developer,5,87584,0.18518518518518517,mid,junior
+38,female,bachelor's,senior project engineer,13,131860,0.34210526315789475,senior,mid_age
+54,male,phd,software engineer manager,28,182013,0.5185185185185185,senior,senior
+31,female,master's,full stack engineer,7,108799,0.22580645161290322,mid,mid_age
+36,male,bachelor's,senior software engineer,13,135378,0.3611111111111111,senior,mid_age
+45,female,master's,software engineer manager,22,183530,0.4888888888888889,senior,senior
+42,male,bachelor's,back end developer,18,150901,0.42857142857142855,senior,mid_age
+28,female,master's,full stack engineer,4,82697,0.14285714285714285,mid,junior
+48,male,phd,senior software engineer,26,194638,0.5416666666666666,senior,senior
+36,female,master's,senior project engineer,12,130356,0.3333333333333333,senior,mid_age
+43,male,bachelor's,full stack engineer,18,152560,0.4186046511627907,senior,mid_age
+33,female,master's,front end developer,9,121432,0.2727272727272727,mid,mid_age
+26,male,bachelor's,back end developer,2,63789,0.07692307692307693,junior,junior
+50,female,master's,senior software engineer,23,183690,0.46,senior,senior
+41,male,phd,software engineer manager,16,151310,0.3902439024390244,senior,mid_age
+29,female,bachelor's,full stack engineer,6,100358,0.20689655172413793,mid,junior
+38,male,master's,senior software engineer,15,148437,0.39473684210526316,senior,mid_age
+48,female,bachelor's,senior project engineer,22,168691,0.4583333333333333,senior,senior
+28,male,bachelor's,software developer,1,50000,0.03571428571428571,junior,junior
+32,female,master's,product manager,5,100000,0.15625,mid,mid_age
+26,male,bachelor's,software engineer,2,60000,0.07692307692307693,junior,junior
+33,female,master's,data analyst,6,90000,0.18181818181818182,mid,mid_age
+29,male,bachelor's,front end developer,3,70000,0.10344827586206896,mid,junior
+42,male,phd,director of data science,12,170000,0.2857142857142857,senior,mid_age
+36,female,master's,data scientist,8,130000,0.2222222222222222,mid,mid_age
+27,male,bachelor's,software developer,1,50000,0.037037037037037035,junior,junior
+34,female,master's,product manager,7,120000,0.20588235294117646,mid,mid_age
+29,male,bachelor's,software engineer,4,80000,0.13793103448275862,mid,junior
+41,female,phd,senior data scientist,16,200000,0.3902439024390244,senior,mid_age
+36,male,phd,director of data science,12,170000,0.3333333333333333,senior,mid_age
+30,female,bachelor's,software engineer,4,80000,0.13333333333333333,mid,mid_age
+28,male,master's,web developer,5,80000,0.17857142857142858,mid,junior
+30,female,bachelor's,junior hr coordinator,4,60000,0.13333333333333333,mid,mid_age
+25,male,bachelor's,junior web developer,2,50000,0.08,junior,junior
+45,female,master's,senior human resources manager,18,160000,0.4,senior,senior
+33,male,phd,human resources director,9,120000,0.2727272727272727,mid,mid_age
+22,female,high school,junior hr generalist,0,40000,0.0,junior,junior
+36,male,bachelor's,web developer,10,100000,0.2777777777777778,senior,mid_age
+29,female,master's,senior hr generalist,4,75000,0.13793103448275862,mid,junior
+42,male,phd,human resources director,16,140000,0.38095238095238093,senior,mid_age
+27,female,bachelor's,junior hr coordinator,2,50000,0.07407407407407407,junior,junior
+38,male,master's,senior human resources manager,11,110000,0.2894736842105263,senior,mid_age
+24,female,bachelor's,web developer,1,45000,0.041666666666666664,junior,junior
+31,male,high school,junior web developer,4,55000,0.12903225806451613,mid,mid_age
+39,female,phd,human resources director,13,130000,0.3333333333333333,senior,mid_age
+26,male,bachelor's,junior hr generalist,2,50000,0.07692307692307693,junior,junior
+32,female,master's,senior hr generalist,7,80000,0.21875,mid,mid_age
+32,male,bachelor's,junior web developer,2,45000,0.0625,junior,mid_age
+24,female,high school,junior hr generalist,1,32000,0.041666666666666664,junior,junior
+45,male,phd,senior human resources manager,12,120000,0.26666666666666666,senior,senior
+29,female,master's,web developer,4,65000,0.13793103448275862,mid,junior
+38,male,bachelor's,senior hr generalist,8,95000,0.21052631578947367,mid,mid_age
+27,female,master's,human resources director,5,80000,0.18518518518518517,mid,junior
+31,female,high school,junior hr coordinator,3,38000,0.0967741935483871,mid,mid_age
+42,male,master's,web developer,10,110000,0.23809523809523808,senior,mid_age
+26,female,bachelor's,junior web developer,2,45000,0.07692307692307693,junior,junior
+36,male,master's,senior hr generalist,7,89000,0.19444444444444445,mid,mid_age
+28,male,high school,junior hr generalist,1,32000,0.03571428571428571,junior,junior
+33,female,bachelor's,web developer,5,70000,0.15151515151515152,mid,mid_age
+46,male,phd,human resources director,15,150000,0.32608695652173914,senior,senior
+25,female,bachelor's,junior web developer,1,40000,0.04,junior,junior
+37,female,master's,senior human resources manager,9,105000,0.24324324324324326,mid,mid_age
+30,male,master's,web developer,4,65000,0.13333333333333333,mid,mid_age
+43,female,phd,human resources director,14,140000,0.32558139534883723,senior,mid_age
+34,male,bachelor's,junior web developer,3,50000,0.08823529411764706,mid,mid_age
+26,female,high school,junior hr generalist,2,35000,0.07692307692307693,junior,junior
+41,male,master's,senior hr generalist,11,115000,0.2682926829268293,senior,mid_age
+29,female,master's,web developer,5,70000,0.1724137931034483,mid,junior
+35,male,bachelor's,web developer,6,80000,0.17142857142857143,mid,mid_age
+27,female,high school,junior hr coordinator,1,30000,0.037037037037037035,junior,junior
+40,male,phd,human resources director,13,135000,0.325,senior,mid_age
+23,female,bachelor's,junior web developer,1,40000,0.043478260869565216,junior,junior
+39,male,master's,senior hr generalist,10,105000,0.2564102564102564,senior,mid_age
+31,male,high school,junior hr generalist,2,35000,0.06451612903225806,junior,mid_age
+44,female,phd,senior human resources manager,12,120000,0.2727272727272727,senior,mid_age
+28,male,master's,web developer,3,55000,0.10714285714285714,mid,junior
+32,female,bachelor's,junior web developer,2,45000,0.0625,junior,mid_age
+45,male,master's,human resources director,14,140000,0.3111111111111111,senior,senior
+26,female,bachelor's,web developer,3,55000,0.11538461538461539,mid,junior
+38,male,phd,senior human resources manager,11,115000,0.2894736842105263,senior,mid_age
+27,female,master's,senior hr generalist,4,70000,0.14814814814814814,mid,junior
+33,male,high school,junior hr coordinator,3,38000,0.09090909090909091,mid,mid_age
+42,female,master's,human resources director,13,135000,0.30952380952380953,senior,mid_age
+29,male,bachelor's,junior web developer,2,45000,0.06896551724137931,junior,junior
+36,female,master's,web developer,7,85000,0.19444444444444445,mid,mid_age
+30,male,high school,junior hr generalist,1,32000,0.03333333333333333,junior,mid_age
+43,female,phd,senior human resources manager,15,150000,0.3488372093023256,senior,mid_age
+34,male,bachelor's,web developer,4,65000,0.11764705882352941,mid,mid_age
+25,female,master's,junior hr generalist,1,32000,0.04,junior,junior
+37,male,phd,human resources director,12,120000,0.32432432432432434,senior,mid_age
+24,female,bachelor's,junior web developer,1,40000,0.041666666666666664,junior,junior
+39,male,master's,senior hr generalist,9,95000,0.23076923076923078,mid,mid_age
+44,female,phd,human resources director,14,140000,0.3181818181818182,senior,mid_age
+28,male,bachelor's,web developer,3,55000,0.10714285714285714,mid,junior
+32,female,master's,senior human resources manager,6,80000,0.1875,mid,mid_age
+45,male,phd,human resources director,13,135000,0.28888888888888886,senior,senior
+38,male,master's,senior hr generalist,8,95000,0.21052631578947367,mid,mid_age
+27,female,high school,junior hr generalist,1,32000,0.037037037037037035,junior,junior
+33,male,bachelor's,web developer,5,70000,0.15151515151515152,mid,mid_age
+42,female,master's,human resources director,12,120000,0.2857142857142857,senior,mid_age
+29,male,master's,senior human resources manager,4,70000,0.13793103448275862,mid,junior
+30,male,high school,junior hr coordinator,2,33000,0.06666666666666667,junior,mid_age
+37,male,phd,human resources director,11,115000,0.2972972972972973,senior,mid_age
+24,female,bachelor's,web developer,1,40000,0.041666666666666664,junior,junior
+44,female,phd,human resources director,13,135000,0.29545454545454547,senior,mid_age
+28,male,bachelor's,web developer,4,65000,0.14285714285714285,mid,junior
+45,male,phd,human resources director,14,140000,0.3111111111111111,senior,senior
+28,male,bachelor's,software engineer,3,60000,0.10714285714285714,mid,junior
+37,female,master's,marketing manager,9,100000,0.24324324324324326,mid,mid_age
+43,male,phd,data scientist,15,150000,0.3488372093023256,senior,mid_age
+31,female,bachelor's,human resources coordinator,4,55000,0.12903225806451613,mid,mid_age
+24,male,high school,junior sales associate,1,30000,0.041666666666666664,junior,junior
+29,female,master's,software developer,5,70000,0.1724137931034483,mid,junior
+35,male,bachelor's,operations manager,8,90000,0.22857142857142856,mid,mid_age
+26,female,master's,marketing coordinator,2,40000,0.07692307692307693,junior,junior
+42,male,phd,data scientist,12,130000,0.2857142857142857,senior,mid_age
+34,female,bachelor's,human resources manager,6,75000,0.17647058823529413,mid,mid_age
+27,male,high school,junior sales associate,2,35000,0.07407407407407407,junior,junior
+38,female,master's,marketing manager,10,110000,0.2631578947368421,senior,mid_age
+30,male,bachelor's,software engineer,4,65000,0.13333333333333333,mid,mid_age
+45,male,phd,data scientist,18,180000,0.4,senior,senior
+25,female,bachelor's,junior software developer,1,35000,0.04,junior,junior
+40,female,master's,human resources manager,11,120000,0.275,senior,mid_age
+33,male,bachelor's,operations manager,6,75000,0.18181818181818182,mid,mid_age
+29,female,high school,junior sales associate,1,30000,0.034482758620689655,junior,junior
+44,male,phd,data scientist,16,160000,0.36363636363636365,senior,mid_age
+26,male,bachelor's,software developer,3,60000,0.11538461538461539,mid,junior
+36,female,master's,marketing coordinator,8,85000,0.2222222222222222,mid,mid_age
+31,male,bachelor's,operations manager,5,70000,0.16129032258064516,mid,mid_age
+27,female,master's,human resources coordinator,3,50000,0.1111111111111111,mid,junior
+42,male,phd,data scientist,13,140000,0.30952380952380953,senior,mid_age
+28,male,high school,junior sales associate,2,35000,0.07142857142857142,junior,junior
+39,female,master's,marketing manager,10,110000,0.2564102564102564,senior,mid_age
+31,male,bachelor's,software engineer,4,65000,0.12903225806451613,mid,mid_age
+27,male,bachelor's,software engineer,3,60000,0.1111111111111111,mid,junior
+38,female,master's,marketing manager,9,100000,0.23684210526315788,mid,mid_age
+44,male,phd,data scientist,15,150000,0.3409090909090909,senior,mid_age
+30,female,bachelor's,human resources coordinator,4,55000,0.13333333333333333,mid,mid_age
+23,male,high school,junior sales associate,1,30000,0.043478260869565216,junior,junior
+28,female,master's,software developer,5,70000,0.17857142857142858,mid,junior
+34,male,bachelor's,operations manager,8,90000,0.23529411764705882,mid,mid_age
+25,female,master's,marketing coordinator,2,40000,0.08,junior,junior
+41,male,phd,data scientist,12,130000,0.2926829268292683,senior,mid_age
+33,female,bachelor's,human resources manager,6,75000,0.18181818181818182,mid,mid_age
+26,male,high school,junior sales associate,2,35000,0.07692307692307693,junior,junior
+37,female,master's,marketing manager,10,110000,0.2702702702702703,senior,mid_age
+29,male,bachelor's,software engineer,4,65000,0.13793103448275862,mid,junior
+46,male,phd,data scientist,18,180000,0.391304347826087,senior,senior
+26,female,bachelor's,junior software developer,1,35000,0.038461538461538464,junior,junior
+39,female,master's,human resources manager,11,120000,0.28205128205128205,senior,mid_age
+32,male,bachelor's,operations manager,6,75000,0.1875,mid,mid_age
+28,female,high school,junior sales associate,1,30000,0.03571428571428571,junior,junior
+43,male,phd,data scientist,16,160000,0.37209302325581395,senior,mid_age
+27,male,bachelor's,software developer,3,60000,0.1111111111111111,mid,junior
+35,female,master's,marketing coordinator,8,85000,0.22857142857142856,mid,mid_age
+30,male,bachelor's,operations manager,5,70000,0.16666666666666666,mid,mid_age
+26,female,master's,human resources coordinator,3,50000,0.11538461538461539,mid,junior
+41,male,phd,data scientist,13,140000,0.3170731707317073,senior,mid_age
+24,male,bachelor's,software engineer,2,55000,0.08333333333333333,junior,junior
+32,female,master's,marketing manager,7,90000,0.21875,mid,mid_age
+45,male,phd,data scientist,16,160000,0.35555555555555557,senior,senior
+28,female,bachelor's,human resources coordinator,4,60000,0.14285714285714285,mid,junior
+22,male,high school,junior sales associate,1,25000,0.045454545454545456,junior,junior
+36,male,bachelor's,operations manager,8,100000,0.2222222222222222,mid,mid_age
+27,female,bachelor's,marketing coordinator,3,45000,0.1111111111111111,mid,junior
+42,male,phd,data scientist,14,140000,0.3333333333333333,senior,mid_age
+25,male,high school,junior sales associate,2,30000,0.08,junior,junior
+39,female,master's,marketing manager,11,120000,0.28205128205128205,senior,mid_age
+47,male,phd,data scientist,19,190000,0.40425531914893614,senior,senior
+40,female,master's,human resources manager,12,130000,0.3,senior,mid_age
+33,male,bachelor's,operations manager,7,85000,0.21212121212121213,mid,mid_age
+29,female,high school,junior sales associate,1,25000,0.034482758620689655,junior,junior
+28,male,bachelor's,software developer,3,60000,0.10714285714285714,mid,junior
+36,female,master's,marketing coordinator,9,100000,0.25,mid,mid_age
+31,male,bachelor's,operations manager,6,75000,0.1935483870967742,mid,mid_age
+26,male,high school,junior sales associate,2,30000,0.07692307692307693,junior,junior
+31,male,bachelor's,software engineer,5,80000,0.16129032258064516,mid,mid_age
+27,female,master's,marketing manager,3,60000,0.1111111111111111,mid,junior
+38,male,phd,data scientist,12,130000,0.3157894736842105,senior,mid_age
+29,female,bachelor's,human resources coordinator,2,45000,0.06896551724137931,junior,junior
+23,male,high school,junior sales associate,1,25000,0.043478260869565216,junior,junior
+32,female,master's,software developer,7,90000,0.21875,mid,mid_age
+44,male,bachelor's,operations manager,18,170000,0.4090909090909091,senior,mid_age
+26,female,bachelor's,marketing coordinator,2,40000,0.07692307692307693,junior,junior
+40,male,phd,data scientist,15,150000,0.375,senior,mid_age
+33,female,bachelor's,human resources manager,8,95000,0.24242424242424243,mid,mid_age
+24,male,high school,junior sales associate,1,25000,0.041666666666666664,junior,junior
+35,female,master's,marketing manager,10,110000,0.2857142857142857,senior,mid_age
+29,male,bachelor's,software engineer,4,70000,0.13793103448275862,mid,junior
+49,male,phd,data scientist,22,220000,0.4489795918367347,senior,senior
+26,female,bachelor's,junior software developer,2,35000,0.07692307692307693,junior,junior
+41,female,master's,human resources manager,13,140000,0.3170731707317073,senior,mid_age
+36,male,bachelor's,operations manager,9,110000,0.25,mid,mid_age
+28,female,high school,junior sales associate,1,25000,0.03571428571428571,junior,junior
+29,male,bachelor's,software developer,5,80000,0.1724137931034483,mid,junior
+39,female,master's,marketing coordinator,11,120000,0.28205128205128205,senior,mid_age
+32,male,bachelor's,operations manager,6,90000,0.1875,mid,mid_age
+28,female,master's,human resources coordinator,2,45000,0.07142857142857142,junior,junior
+34,male,bachelor's,software engineer,6,85000,0.17647058823529413,mid,mid_age
+31,female,master's,marketing manager,4,62000,0.12903225806451613,mid,mid_age
+41,male,phd,data scientist,13,138000,0.3170731707317073,senior,mid_age
+27,female,bachelor's,human resources coordinator,2,47000,0.07407407407407407,junior,junior
+25,male,high school,junior sales associate,1,26000,0.04,junior,junior
+33,female,master's,software developer,8,95000,0.24242424242424243,mid,mid_age
+45,male,bachelor's,operations manager,19,174000,0.4222222222222222,senior,senior
+28,female,bachelor's,marketing coordinator,2,41000,0.07142857142857142,junior,junior
+42,male,phd,data scientist,16,162000,0.38095238095238093,senior,mid_age
+34,female,bachelor's,human resources manager,9,99000,0.2647058823529412,mid,mid_age
+23,male,high school,junior sales associate,1,26000,0.043478260869565216,junior,junior
+36,female,master's,marketing manager,11,117000,0.3055555555555556,senior,mid_age
+30,male,bachelor's,software engineer,5,75000,0.16666666666666666,mid,mid_age
+50,male,phd,data scientist,23,225000,0.46,senior,senior
+27,female,bachelor's,junior software developer,2,36000,0.07407407407407407,junior,junior
+43,female,master's,human resources manager,14,146000,0.32558139534883723,senior,mid_age
+37,male,bachelor's,operations manager,10,113000,0.2702702702702703,senior,mid_age
+29,female,high school,junior sales associate,1,26000,0.034482758620689655,junior,junior
+44,male,phd,data scientist,17,168000,0.38636363636363635,senior,mid_age
+30,male,bachelor's,software developer,6,85000,0.2,mid,mid_age
+40,female,master's,marketing coordinator,12,122000,0.3,senior,mid_age
+33,male,bachelor's,operations manager,7,96000,0.21212121212121213,mid,mid_age
+29,female,master's,human resources coordinator,3,49000,0.10344827586206896,mid,junior
+43,male,phd,data scientist,16,162000,0.37209302325581395,senior,mid_age
+32,female,master's,software developer,8,95000,0.25,mid,mid_age
+24,male,high school,junior sales associate,1,26000,0.041666666666666664,junior,junior
+31,female,master's,marketing manager,5,68000,0.16129032258064516,mid,mid_age
+39,male,bachelor's,operations manager,13,127000,0.3333333333333333,senior,mid_age
+25,female,bachelor's,human resources coordinator,2,47000,0.08,junior,junior
+41,male,phd,data scientist,15,155000,0.36585365853658536,senior,mid_age
+35,female,bachelor's,human resources manager,8,92000,0.22857142857142856,mid,mid_age
+26,male,high school,junior sales associate,1,26000,0.038461538461538464,junior,junior
+37,female,master's,marketing manager,12,125000,0.32432432432432434,senior,mid_age
+29,male,bachelor's,software engineer,4,71000,0.13793103448275862,mid,junior
+51,male,phd,data scientist,24,240000,0.47058823529411764,senior,senior
+28,female,bachelor's,junior software developer,2,36000,0.07142857142857142,junior,junior
+44,female,master's,human resources manager,15,152000,0.3409090909090909,senior,mid_age
+38,male,bachelor's,operations manager,11,119000,0.2894736842105263,senior,mid_age
+30,female,high school,junior sales associate,1,26000,0.03333333333333333,junior,mid_age
+45,male,phd,data scientist,19,190000,0.4222222222222222,senior,senior
+31,male,bachelor's,software developer,6,85000,0.1935483870967742,mid,mid_age
+41,female,master's,marketing coordinator,13,131000,0.3170731707317073,senior,mid_age
+34,male,bachelor's,operations manager,8,101000,0.23529411764705882,mid,mid_age
+30,female,master's,human resources coordinator,3,49000,0.1,mid,mid_age
+44,male,phd,data scientist,18,182000,0.4090909090909091,senior,mid_age
+27,male,bachelor's,software developer,3,62000,0.1111111111111111,mid,junior
+42,female,master's,marketing manager,16,137000,0.38095238095238093,senior,mid_age
+35,male,phd,data scientist,9,112000,0.2571428571428571,mid,mid_age
+33,male,high school,junior sales associate,1,25000,0.030303030303030304,junior,mid_age
+36,female,bachelor's,operations manager,7,91000,0.19444444444444445,mid,mid_age
+43,male,phd,data scientist,17,179000,0.3953488372093023,senior,mid_age
+31,female,bachelor's,software engineer,5,74000,0.16129032258064516,mid,mid_age
+49,male,master's,marketing manager,23,228000,0.46938775510204084,senior,senior
+28,female,bachelor's,junior software developer,2,37000,0.07142857142857142,junior,junior
+45,female,phd,data scientist,19,193000,0.4222222222222222,senior,senior
+30,female,high school,junior sales associate,1,25000,0.03333333333333333,junior,mid_age
+45,male,master's,marketing manager,20,204000,0.4444444444444444,senior,senior
+27,female,bachelor's,software developer,3,61000,0.1111111111111111,mid,junior
+41,male,phd,data scientist,15,157000,0.36585365853658536,senior,mid_age
+35,female,master's,human resources manager,8,92000,0.22857142857142856,mid,mid_age
+26,male,bachelor's,software engineer,1,52000,0.038461538461538464,junior,junior
+30,female,bachelor's,marketing coordinator,4,58000,0.13333333333333333,mid,mid_age
+48,male,phd,data scientist,22,219000,0.4583333333333333,senior,senior
+32,female,master's,marketing manager,6,77000,0.1875,mid,mid_age
+34,male,bachelor's,operations manager,8,104000,0.23529411764705882,mid,mid_age
+31,female,high school,junior sales associate,1,25000,0.03225806451612903,junior,mid_age
+44,female,phd,data scientist,18,183000,0.4090909090909091,senior,mid_age
+31,female,master's,human resources director,6,95000,0.1935483870967742,mid,mid_age
+28,male,bachelor's,junior web developer,2,45000,0.07142857142857142,junior,junior
+29,female,master's,senior hr generalist,4,70000,0.13793103448275862,mid,junior
+35,male,phd,senior human resources manager,10,110000,0.2857142857142857,senior,mid_age
+26,female,high school,web developer,1,35000,0.038461538461538464,junior,junior
+32,male,bachelor's,junior hr generalist,5,60000,0.15625,mid,mid_age
+27,female,master's,web developer,2,50000,0.07407407407407407,junior,junior
+39,male,master's,human resources director,12,120000,0.3076923076923077,senior,mid_age
+23,female,bachelor's,junior hr generalist,1,32000,0.043478260869565216,junior,junior
+30,male,bachelor's,web developer,4,65000,0.13333333333333333,mid,mid_age
+26,female,bachelor's,junior hr coordinator,1,35000,0.038461538461538464,junior,junior
+42,male,phd,senior human resources manager,14,130000,0.3333333333333333,senior,mid_age
+34,female,master's,human resources director,9,95000,0.2647058823529412,mid,mid_age
+28,male,high school,junior hr generalist,2,43000,0.07142857142857142,junior,junior
+31,female,bachelor's,junior hr coordinator,4,50000,0.12903225806451613,mid,mid_age
+29,male,bachelor's,web developer,3,60000,0.10344827586206896,mid,junior
+35,female,master's,senior hr generalist,8,80000,0.22857142857142856,mid,mid_age
+26,male,master's,junior web developer,2,48000,0.07692307692307693,junior,junior
+40,female,phd,human resources director,13,125000,0.325,senior,mid_age
+34,male,bachelor's,web developer,7,85000,0.20588235294117646,mid,mid_age
+26,female,bachelor's,junior hr generalist,2,42000,0.07692307692307693,junior,junior
+29,male,master's,senior hr generalist,4,70000,0.13793103448275862,mid,junior
+25,female,high school,junior hr coordinator,1,32000,0.04,junior,junior
+33,male,master's,web developer,6,80000,0.18181818181818182,mid,mid_age
+27,female,bachelor's,junior hr generalist,2,42000,0.07407407407407407,junior,junior
+31,male,phd,senior human resources manager,7,90000,0.22580645161290322,mid,mid_age
+24,male,bachelor's,junior web developer,1,40000,0.041666666666666664,junior,junior
+42,female,master's,senior hr generalist,12,110000,0.2857142857142857,senior,mid_age
+34,male,master's,human resources director,10,105000,0.29411764705882354,senior,mid_age
+28,female,bachelor's,junior hr generalist,3,50000,0.10714285714285714,mid,junior
+33,male,phd,human resources director,8,95000,0.24242424242424243,mid,mid_age
+29,female,bachelor's,web developer,3,60000,0.10344827586206896,mid,junior
+25,male,high school,junior hr generalist,2,40000,0.08,junior,junior
+26,female,master's,senior hr generalist,2,55000,0.07692307692307693,junior,junior
+30,male,bachelor's,web developer,5,70000,0.16666666666666666,mid,mid_age
+24,female,high school,junior hr coordinator,1,32000,0.041666666666666664,junior,junior
+31,male,master's,human resources director,7,90000,0.22580645161290322,mid,mid_age
+27,female,bachelor's,web developer,2,50000,0.07407407407407407,junior,junior
+26,female,bachelor's,junior hr generalist,1,32000,0.038461538461538464,junior,junior
+32,male,master's,web developer,6,80000,0.1875,mid,mid_age
+25,male,high school,web developer,2,45000,0.08,junior,junior
+33,female,bachelor's,junior hr generalist,7,65000,0.21212121212121213,mid,mid_age
+27,male,master's,web developer,2,50000,0.07407407407407407,junior,junior
+28,female,bachelor's,junior hr coordinator,3,45000,0.10714285714285714,mid,junior
+34,male,phd,human resources director,9,95000,0.2647058823529412,mid,mid_age
+30,female,bachelor's,web developer,4,65000,0.13333333333333333,mid,mid_age
+26,male,bachelor's,junior hr coordinator,2,38000,0.07692307692307693,junior,junior
+42,female,master's,senior human resources manager,13,125000,0.30952380952380953,senior,mid_age
+34,male,master's,web developer,8,90000,0.23529411764705882,mid,mid_age
+28,female,high school,junior hr generalist,2,43000,0.07142857142857142,junior,junior
+31,male,bachelor's,junior hr generalist,5,60000,0.16129032258064516,mid,mid_age
+29,female,master's,web developer,3,60000,0.10344827586206896,mid,junior
+26,female,bachelor's,web developer,1,35000,0.038461538461538464,junior,junior
+32,male,master's,human resources director,6,95000,0.1875,mid,mid_age
+27,female,master's,junior hr generalist,2,42000,0.07407407407407407,junior,junior
+39,male,master's,senior hr generalist,11,100000,0.28205128205128205,senior,mid_age
+23,female,bachelor's,junior hr coordinator,1,32000,0.043478260869565216,junior,junior
+42,male,phd,human resources director,14,130000,0.3333333333333333,senior,mid_age
+28,male,high school,junior web developer,2,43000,0.07142857142857142,junior,junior
+25,female,high school,junior hr coordinator,1,32000,0.04,junior,junior
+27,female,bachelor's,junior software engineer,1,45000,0.037037037037037035,junior,junior
+33,male,master's,senior data scientist,8,120000,0.24242424242424243,mid,mid_age
+29,female,bachelor's,marketing coordinator,3,55000,0.10344827586206896,mid,junior
+31,male,bachelor's,junior marketing manager,5,70000,0.16129032258064516,mid,mid_age
+38,female,phd,senior research scientist,12,140000,0.3157894736842105,senior,mid_age
+25,male,high school,junior sales associate,1,30000,0.04,junior,junior
+32,female,master's,senior software engineer,7,100000,0.21875,mid,mid_age
+27,male,bachelor's,junior data analyst,2,50000,0.07407407407407407,junior,junior
+29,female,bachelor's,junior marketing manager,3,55000,0.10344827586206896,mid,junior
+35,male,phd,senior research scientist,10,130000,0.2857142857142857,senior,mid_age
+26,female,bachelor's,junior software engineer,1,45000,0.038461538461538464,junior,junior
+28,female,bachelor's,junior software engineer,2,48000,0.07142857142857142,junior,junior
+36,male,master's,senior data scientist,9,125000,0.25,mid,mid_age
+30,female,bachelor's,marketing coordinator,4,57000,0.13333333333333333,mid,mid_age
+32,male,bachelor's,junior marketing manager,6,72000,0.1875,mid,mid_age
+39,female,phd,senior research scientist,13,145000,0.3333333333333333,senior,mid_age
+26,male,high school,junior sales associate,2,31000,0.07692307692307693,junior,junior
+33,female,master's,senior software engineer,8,105000,0.24242424242424243,mid,mid_age
+28,male,bachelor's,junior data analyst,3,52000,0.10714285714285714,mid,junior
+30,female,bachelor's,junior marketing manager,4,57000,0.13333333333333333,mid,mid_age
+36,male,phd,senior research scientist,11,135000,0.3055555555555556,senior,mid_age
+27,female,bachelor's,junior software engineer,2,48000,0.07407407407407407,junior,junior
+34,male,master's,senior data scientist,9,125000,0.2647058823529412,mid,mid_age
+26,male,bachelor's,senior product marketing manager,5,85000,0.19230769230769232,mid,junior
+28,female,master's,marketing manager,7,110000,0.25,mid,junior
+34,male,phd,director of marketing,12,170000,0.35294117647058826,senior,mid_age
+31,male,bachelor's,sales director,9,140000,0.2903225806451613,mid,mid_age
+24,female,high school,sales associate,1,30000,0.041666666666666664,junior,junior
+29,male,bachelor's,digital marketing manager,6,95000,0.20689655172413793,mid,junior
+27,female,master's,content marketing manager,4,80000,0.14814814814814814,mid,junior
+33,male,phd,sales director,10,155000,0.30303030303030304,senior,mid_age
+21,female,high school,junior sales representative,0,25000,0.0,junior,junior
+36,male,bachelor's,sales manager,11,160000,0.3055555555555556,senior,mid_age
+25,female,bachelor's,marketing manager,3,65000,0.12,mid,junior
+30,male,master's,financial manager,7,120000,0.23333333333333334,mid,mid_age
+28,female,phd,director of marketing,6,105000,0.21428571428571427,mid,junior
+22,female,high school,sales associate,0,25000,0.0,junior,junior
+45,male,bachelor's,financial manager,21,250000,0.4666666666666667,senior,senior
+31,female,master's,content marketing manager,8,120000,0.25806451612903225,mid,mid_age
+28,male,bachelor's,digital marketing manager,4,80000,0.14285714285714285,mid,junior
+29,male,bachelor's,senior product marketing manager,6,100000,0.20689655172413793,mid,junior
+35,female,phd,director of marketing,12,170000,0.34285714285714286,senior,mid_age
+27,male,high school,sales representative,3,50000,0.1111111111111111,mid,junior
+33,female,bachelor's,marketing manager,9,140000,0.2727272727272727,mid,mid_age
+25,female,bachelor's,marketing manager,2,55000,0.08,junior,junior
+29,female,master's,content marketing manager,4,80000,0.13793103448275862,mid,junior
+23,male,bachelor's,software engineer,1,60000,0.043478260869565216,junior,junior
+39,female,master's,marketing manager,12,150000,0.3076923076923077,senior,mid_age
+28,male,bachelor's,financial analyst,4,80000,0.14285714285714285,mid,junior
+31,female,phd,research scientist,8,120000,0.25806451612903225,mid,mid_age
+35,male,bachelor's,project manager,10,130000,0.2857142857142857,senior,mid_age
+27,female,bachelor's,graphic designer,2,50000,0.07407407407407407,junior,junior
+42,male,master's,senior software engineer,18,180000,0.42857142857142855,senior,mid_age
+29,female,bachelor's,digital marketing specialist,3,60000,0.10344827586206896,mid,junior
+33,male,bachelor's,marketing manager,7,110000,0.21212121212121213,mid,mid_age
+24,female,high school,sales associate,0,25000,0.0,junior,junior
+30,male,master's,financial analyst,6,100000,0.2,mid,mid_age
+26,female,bachelor's,social media manager,3,55000,0.11538461538461539,mid,junior
+32,male,phd,data scientist,9,140000,0.28125,mid,mid_age
+22,female,high school,receptionist,0,25000,0.0,junior,junior
+37,male,bachelor's,product manager,12,150000,0.32432432432432434,senior,mid_age
+38,female,master's,marketing director,14,170000,0.3684210526315789,senior,mid_age
+25,male,bachelor's,junior software engineer,1,55000,0.04,junior,junior
+29,female,bachelor's,marketing coordinator,4,65000,0.13793103448275862,mid,junior
+27,male,bachelor's,product designer,3,60000,0.1111111111111111,mid,junior
+34,female,phd,research director,10,150000,0.29411764705882354,senior,mid_age
+26,male,bachelor's,marketing analyst,2,50000,0.07692307692307693,junior,junior
+31,female,master's,financial manager,7,120000,0.22580645161290322,mid,mid_age
+28,male,bachelor's,software engineer,3,85000,0.10714285714285714,mid,junior
+36,female,master's,marketing director,11,160000,0.3055555555555556,senior,mid_age
+25,male,bachelor's,financial analyst,1,55000,0.04,junior,junior
+29,female,phd,data scientist,5,100000,0.1724137931034483,mid,junior
+33,male,bachelor's,project manager,8,120000,0.24242424242424243,mid,mid_age
+43,male,master's,senior software engineer,19,185000,0.4418604651162791,senior,mid_age
+30,female,bachelor's,digital marketing specialist,4,65000,0.13333333333333333,mid,mid_age
+34,male,bachelor's,marketing manager,9,130000,0.2647058823529412,mid,mid_age
+25,female,high school,sales associate,0,25000,0.0,junior,junior
+31,male,master's,financial analyst,6,100000,0.1935483870967742,mid,mid_age
+27,female,bachelor's,social media manager,3,55000,0.1111111111111111,mid,junior
+33,male,phd,research scientist,10,150000,0.30303030303030304,senior,mid_age
+23,female,high school,receptionist,0,25000,0.0,junior,junior
+38,male,bachelor's,product manager,13,160000,0.34210526315789475,senior,mid_age
+39,female,master's,marketing manager,14,170000,0.358974358974359,senior,mid_age
+26,male,bachelor's,junior software engineer,1,55000,0.038461538461538464,junior,junior
+30,female,bachelor's,marketing coordinator,4,65000,0.13333333333333333,mid,mid_age
+28,male,bachelor's,product designer,3,60000,0.10714285714285714,mid,junior
+35,female,phd,research director,11,160000,0.3142857142857143,senior,mid_age
+27,male,bachelor's,marketing analyst,2,50000,0.07407407407407407,junior,junior
+32,female,master's,financial manager,8,120000,0.25,mid,mid_age
+27,male,bachelor's,software engineer,3,85000,0.1111111111111111,mid,junior
+35,female,master's,marketing director,11,160000,0.3142857142857143,senior,mid_age
+24,male,bachelor's,financial analyst,1,55000,0.041666666666666664,junior,junior
+28,female,phd,data scientist,5,100000,0.17857142857142858,mid,junior
+32,male,bachelor's,project manager,8,120000,0.25,mid,mid_age
+26,female,bachelor's,graphic designer,2,50000,0.07692307692307693,junior,junior
+41,male,master's,senior software engineer,19,185000,0.4634146341463415,senior,mid_age
+29,female,bachelor's,digital marketing specialist,4,65000,0.13793103448275862,mid,junior
+33,male,bachelor's,marketing manager,9,130000,0.2727272727272727,mid,mid_age
+32,male,phd,research scientist,10,150000,0.3125,senior,mid_age
+37,male,bachelor's,product manager,13,160000,0.35135135135135137,senior,mid_age
+38,female,master's,marketing manager,14,170000,0.3684210526315789,senior,mid_age
+27,male,bachelor's,junior software engineer,1,55000,0.037037037037037035,junior,junior
+31,female,bachelor's,marketing coordinator,4,65000,0.12903225806451613,mid,mid_age
+29,male,bachelor's,product designer,3,60000,0.10344827586206896,mid,junior
+34,female,phd,research director,11,160000,0.3235294117647059,senior,mid_age
+31,female,master's,financial manager,8,120000,0.25806451612903225,mid,mid_age
+26,female,bachelor's,social media man,7,100000,0.2692307692307692,mid,junior
+31,male,bachelor's,software engineer,7,120000,0.22580645161290322,mid,mid_age
+33,male,master's,marketing manager,9,130000,0.2727272727272727,mid,mid_age
+29,female,high school,customer service representative,3,35000,0.10344827586206896,mid,junior
+36,male,phd,research scientist,13,160000,0.3611111111111111,senior,mid_age
+27,female,bachelor's,marketing coordinator,2,50000,0.07407407407407407,junior,junior
+31,male,bachelor's,project manager,6,100000,0.1935483870967742,mid,mid_age
+28,female,master's,financial analyst,4,80000,0.14285714285714285,mid,junior
+25,male,bachelor's,software engineer,1,60000,0.04,junior,junior
+30,female,bachelor's,sales manager,5,90000,0.16666666666666666,mid,mid_age
+34,male,phd,research director,11,170000,0.3235294117647059,senior,mid_age
+28,female,bachelor's,marketing analyst,3,60000,0.10714285714285714,mid,junior
+32,male,bachelor's,product manager,7,120000,0.21875,mid,mid_age
+24,female,high school,receptionist,0,25000,0.0,junior,junior
+37,male,master's,marketing director,14,180000,0.3783783783783784,senior,mid_age
+39,female,bachelor's,financial manager,16,200000,0.41025641025641024,senior,mid_age
+26,male,bachelor's,product designer,2,50000,0.07692307692307693,junior,junior
+31,female,phd,data scientist,8,140000,0.25806451612903225,mid,mid_age
+29,male,bachelor's,marketing analyst,4,70000,0.13793103448275862,mid,junior
+33,female,master's,marketing manager,9,130000,0.2727272727272727,mid,mid_age
+27,male,bachelor's,software engineer,3,80000,0.1111111111111111,mid,junior
+36,female,phd,research scientist,12,160000,0.3333333333333333,senior,mid_age
+25,male,bachelor's,product manager,1,55000,0.04,junior,junior
+30,female,bachelor's,marketing coordinator,5,85000,0.16666666666666666,mid,mid_age
+28,female,bachelor's,marketing coordinator,3,60000,0.10714285714285714,mid,junior
+33,male,master's,software engineer,9,120000,0.2727272727272727,mid,mid_age
+26,female,bachelor's,graphic designer,1,45000,0.038461538461538464,junior,junior
+29,male,bachelor's,product manager,5,80000,0.1724137931034483,mid,junior
+35,female,phd,research scientist,11,150000,0.3142857142857143,senior,mid_age
+27,male,bachelor's,software engineer,2,65000,0.07407407407407407,junior,junior
+31,female,bachelor's,marketing manager,7,100000,0.22580645161290322,mid,mid_age
+28,male,master's,financial analyst,4,90000,0.14285714285714285,mid,junior
+24,female,bachelor's,marketing analyst,0,40000,0.0,junior,junior
+30,male,bachelor's,project manager,6,110000,0.2,mid,mid_age
+34,female,phd,research director,12,170000,0.35294117647058826,senior,mid_age
+27,male,bachelor's,software engineer,3,75000,0.1111111111111111,mid,junior
+33,female,master's,marketing manager,8,120000,0.24242424242424243,mid,mid_age
+25,female,high school,customer service representative,1,30000,0.04,junior,junior
+36,male,phd,research scientist,13,180000,0.3611111111111111,senior,mid_age
+39,female,bachelor's,financial manager,15,200000,0.38461538461538464,senior,mid_age
+26,male,bachelor's,product designer,1,50000,0.038461538461538464,junior,junior
+28,male,bachelor's,marketing analyst,3,65000,0.10714285714285714,mid,junior
+32,female,bachelor's,product manager,7,110000,0.21875,mid,mid_age
+24,male,high school,delivery driver,0,28000,0.0,junior,junior
+37,male,master's,marketing director,14,190000,0.3783783783783784,senior,mid_age
+39,female,bachelor's,financial manager,16,210000,0.41025641025641024,senior,mid_age
+26,male,bachelor's,product designer,2,55000,0.07692307692307693,junior,junior
+36,female,phd,research scientist,12,170000,0.3333333333333333,senior,mid_age
+25,male,bachelor's,product manager,1,60000,0.04,junior,junior
+30,female,bachelor's,marketing coordinator,5,90000,0.16666666666666666,mid,mid_age
+34,male,phd,research director,11,160000,0.3235294117647059,senior,mid_age
+29,male,bachelor's,software engineer,3,75000,0.10344827586206896,mid,junior
+32,female,master's,marketing manager,8,120000,0.25,mid,mid_age
+27,male,bachelor's,product manager,2,65000,0.07407407407407407,junior,junior
+30,female,phd,data scientist,6,100000,0.2,mid,mid_age
+36,male,bachelor's,financial analyst,11,150000,0.3055555555555556,senior,mid_age
+27,male,phd,marketing coordinator,7,120000,0.25925925925925924,mid,junior
+33,male,master's,software engineer,8,120000,0.24242424242424243,mid,mid_age
+27,female,bachelor's,product manager,2,65000,0.07407407407407407,junior,junior
+30,male,phd,data scientist,6,100000,0.2,mid,mid_age
+36,female,bachelor's,financial analyst,11,150000,0.3055555555555556,senior,mid_age
+29,male,bachelor's,marketing analyst,3,65000,0.10344827586206896,mid,junior
+32,female,master's,software engineer,9,120000,0.28125,mid,mid_age
+26,male,bachelor's,graphic designer,1,45000,0.038461538461538464,junior,junior
+29,female,bachelor's,product manager,5,80000,0.1724137931034483,mid,junior
+35,male,phd,research scientist,11,150000,0.3142857142857143,senior,mid_age
+34,male,master's,software engineer,9,125000,0.2647058823529412,mid,mid_age
+28,female,bachelor's,product manager,3,70000,0.10714285714285714,mid,junior
+31,male,phd,data scientist,7,110000,0.22580645161290322,mid,mid_age
+37,female,bachelor's,financial analyst,12,160000,0.32432432432432434,senior,mid_age
+30,male,bachelor's,marketing analyst,4,75000,0.13333333333333333,mid,mid_age
+33,female,master's,software engineer,8,120000,0.24242424242424243,mid,mid_age
+27,male,bachelor's,graphic designer,2,50000,0.07407407407407407,junior,junior
+30,female,bachelor's,product manager,5,85000,0.16666666666666666,mid,mid_age
+36,male,phd,research scientist,11,155000,0.3055555555555556,senior,mid_age
+28,male,bachelor's,software engineer,3,70000,0.10714285714285714,mid,junior
+32,female,bachelor's,marketing manager,8,115000,0.25,mid,mid_age
+29,male,master's,financial analyst,5,95000,0.1724137931034483,mid,junior
+25,female,bachelor's,marketing analyst,0,40000,0.0,junior,junior
+31,male,bachelor's,project manager,6,115000,0.1935483870967742,mid,mid_age
+35,female,phd,research director,12,175000,0.34285714285714286,senior,mid_age
+33,female,master's,marketing manager,9,135000,0.2727272727272727,mid,mid_age
+29,male,bachelor's,marketing analyst,4,75000,0.13793103448275862,mid,junior
+36,male,phd,research scientist,13,185000,0.3611111111111111,senior,mid_age
+40,female,bachelor's,financial manager,15,210000,0.375,senior,mid_age
+27,male,bachelor's,product designer,1,45000,0.037037037037037035,junior,junior
+32,female,phd,data scientist,9,145000,0.28125,mid,mid_age
+28,male,bachelor's,marketing analyst,3,70000,0.10714285714285714,mid,junior
+32,female,bachelor's,product manager,7,120000,0.21875,mid,mid_age
+38,male,master's,marketing director,14,195000,0.3684210526315789,senior,mid_age
+40,female,bachelor's,financial manager,16,215000,0.4,senior,mid_age
+27,male,bachelor's,product designer,2,55000,0.07407407407407407,junior,junior
+36,female,phd,research scientist,13,185000,0.3611111111111111,senior,mid_age
+30,female,bachelor's,marketing coordinator,5,95000,0.16666666666666666,mid,mid_age
+34,male,phd,research director,12,170000,0.35294117647058826,senior,mid_age
+28,female,bachelor's,marketing analyst,3,65000,0.10714285714285714,mid,junior
+26,female,master's,software engineer,2,75000,0.07692307692307693,junior,junior
+39,male,phd,research scientist,14,185000,0.358974358974359,senior,mid_age
+32,female,bachelor's,marketing manager,7,120000,0.21875,mid,mid_age
+28,male,bachelor's,graphic designer,3,60000,0.10714285714285714,mid,junior
+35,female,master's,data scientist,10,145000,0.2857142857142857,senior,mid_age
+33,female,master's,product manager,8,135000,0.24242424242424243,mid,mid_age
+27,male,bachelor's,software engineer,2,70000,0.07407407407407407,junior,junior
+36,female,phd,research director,12,175000,0.3333333333333333,senior,mid_age
+29,male,bachelor's,sales associate,2,45000,0.06896551724137931,junior,junior
+45,female,master's,sales manager,8,80000,0.17777777777777778,mid,senior
+37,male,phd,marketing manager,7,90000,0.1891891891891892,mid,mid_age
+23,female,high school,sales executive,1,35000,0.043478260869565216,junior,junior
+41,male,bachelor's,financial manager,12,120000,0.2926829268292683,senior,mid_age
+26,female,bachelor's,digital marketing manager,4,60000,0.15384615384615385,mid,junior
+33,male,master's,content marketing manager,5,70000,0.15151515151515152,mid,mid_age
+28,female,high school,sales representative,3,40000,0.10714285714285714,mid,junior
+50,male,phd,senior product marketing manager,15,150000,0.3,senior,senior
+35,female,bachelor's,junior sales representative,2,35000,0.05714285714285714,junior,mid_age
+42,male,master's,director of marketing,13,130000,0.30952380952380953,senior,mid_age
+27,female,bachelor's,sales associate,1,35000,0.037037037037037035,junior,junior
+48,male,phd,sales director,18,180000,0.375,senior,senior
+31,female,high school,financial manager,4,60000,0.12903225806451613,mid,mid_age
+36,male,bachelor's,sales manager,6,75000,0.16666666666666666,mid,mid_age
+25,female,master's,digital marketing manager,3,50000,0.12,mid,junior
+39,male,phd,marketing manager,10,100000,0.2564102564102564,senior,mid_age
+30,female,high school,sales executive,2,40000,0.06666666666666667,junior,mid_age
+44,male,bachelor's,content marketing manager,11,110000,0.25,senior,mid_age
+29,female,master's,sales representative,4,55000,0.13793103448275862,mid,junior
+47,male,phd,senior product marketing manager,17,170000,0.3617021276595745,senior,senior
+32,female,bachelor's,junior sales representative,3,40000,0.09375,mid,mid_age
+38,male,master's,director of marketing,9,95000,0.23684210526315788,mid,mid_age
+24,female,high school,sales associate,1,35000,0.041666666666666664,junior,junior
+40,male,phd,sales director,14,140000,0.35,senior,mid_age
+34,female,bachelor's,financial manager,5,70000,0.14705882352941177,mid,mid_age
+26,male,master's,digital marketing manager,3,50000,0.11538461538461539,mid,junior
+31,female,phd,marketing manager,6,75000,0.1935483870967742,mid,mid_age
+27,male,high school,sales executive,2,40000,0.07407407407407407,junior,junior
+43,female,bachelor's,content marketing manager,12,120000,0.27906976744186046,senior,mid_age
+28,male,master's,sales representative,2,40000,0.07142857142857142,junior,junior
+46,female,phd,senior product marketing manager,16,160000,0.34782608695652173,senior,senior
+33,male,bachelor's,junior sales representative,4,55000,0.12121212121212122,mid,mid_age
+39,female,master's,director of marketing,10,100000,0.2564102564102564,senior,mid_age
+25,male,high school,sales associate,1,35000,0.04,junior,junior
+41,female,bachelor's,sales manager,8,80000,0.1951219512195122,mid,mid_age
+35,male,phd,marketing manager,7,90000,0.2,mid,mid_age
+23,female,bachelor's,sales executive,1,35000,0.043478260869565216,junior,junior
+42,male,master's,financial manager,13,130000,0.30952380952380953,senior,mid_age
+32,male,master's,content marketing manager,5,70000,0.15625,mid,mid_age
+27,female,high school,sales representative,3,40000,0.1111111111111111,mid,junior
+36,female,bachelor's,junior sales representative,2,35000,0.05555555555555555,junior,mid_age
+48,male,master's,director of marketing,18,180000,0.375,senior,senior
+31,female,high school,sales associate,2,40000,0.06451612903225806,junior,mid_age
+29,male,bachelor's,sales director,6,75000,0.20689655172413793,mid,junior
+45,female,phd,financial manager,12,120000,0.26666666666666666,senior,senior
+25,male,master's,digital marketing manager,3,50000,0.12,mid,junior
+37,female,bachelor's,marketing manager,7,90000,0.1891891891891892,mid,mid_age
+23,male,high school,sales executive,1,35000,0.043478260869565216,junior,junior
+41,female,bachelor's,content marketing manager,11,110000,0.2682926829268293,senior,mid_age
+26,male,master's,sales representative,3,45000,0.11538461538461539,mid,junior
+33,female,phd,senior product marketing manager,5,70000,0.15151515151515152,mid,mid_age
+28,male,bachelor's,junior sales representative,1,30000,0.03571428571428571,junior,junior
+42,female,master's,director of marketing,13,130000,0.30952380952380953,senior,mid_age
+27,male,high school,financial manager,4,60000,0.14814814814814814,mid,junior
+50,female,bachelor's,sales manager,15,150000,0.3,senior,senior
+35,male,phd,marketing manager,8,80000,0.22857142857142856,mid,mid_age
+24,female,bachelor's,sales executive,1,35000,0.041666666666666664,junior,junior
+46,male,master's,content marketing manager,16,160000,0.34782608695652173,senior,senior
+29,female,high school,sales representative,2,40000,0.06896551724137931,junior,junior
+31,female,bachelor's,junior sales representative,3,40000,0.0967741935483871,mid,mid_age
+25,female,high school,sales associate,1,35000,0.04,junior,junior
+39,male,bachelor's,sales director,10,100000,0.2564102564102564,senior,mid_age
+33,female,phd,financial manager,5,70000,0.15151515151515152,mid,mid_age
+27,male,master's,digital marketing manager,3,50000,0.1111111111111111,mid,junior
+43,female,bachelor's,marketing manager,12,120000,0.27906976744186046,senior,mid_age
+28,male,high school,sales executive,2,40000,0.07142857142857142,junior,junior
+31,male,bachelor's,sales associate,3,50000,0.0967741935483871,mid,mid_age
+46,female,master's,marketing manager,14,140000,0.30434782608695654,senior,senior
+38,female,bachelor's,financial manager,10,100000,0.2631578947368421,senior,mid_age
+24,male,phd,digital marketing manager,1,30000,0.041666666666666664,junior,junior
+33,female,master's,content marketing manager,6,75000,0.18181818181818182,mid,mid_age
+29,male,high school,sales representative,2,40000,0.06896551724137931,junior,junior
+50,female,bachelor's,sales manager,18,180000,0.36,senior,senior
+35,male,phd,senior product marketing manager,8,80000,0.22857142857142856,mid,mid_age
+41,male,master's,director of marketing,12,120000,0.2926829268292683,senior,mid_age
+26,female,high school,financial manager,3,45000,0.11538461538461539,mid,junior
+32,male,bachelor's,sales director,7,90000,0.21875,mid,mid_age
+27,female,phd,marketing manager,4,55000,0.14814814814814814,mid,junior
+43,male,master's,content marketing manager,16,160000,0.37209302325581395,senior,mid_age
+28,female,bachelor's,sales representative,2,40000,0.07142857142857142,junior,junior
+31,female,high school,junior sales representative,3,40000,0.0967741935483871,mid,mid_age
+39,male,bachelor's,sales manager,11,110000,0.28205128205128205,senior,mid_age
+33,female,phd,financial manager,6,75000,0.18181818181818182,mid,mid_age
+50,female,master's,content marketing manager,15,150000,0.3,senior,senior
+36,male,bachelor's,sales representative,5,70000,0.1388888888888889,mid,mid_age
+48,female,phd,senior product marketing manager,19,190000,0.3958333333333333,senior,senior
+31,male,high school,junior sales representative,3,40000,0.0967741935483871,mid,mid_age
+29,female,bachelor's,sales director,6,75000,0.20689655172413793,mid,junior
+45,male,master's,director of marketing,14,140000,0.3111111111111111,senior,senior
+35,female,phd,marketing manager,8,80000,0.22857142857142856,mid,mid_age
+23,male,bachelor's,sales executive,1,35000,0.043478260869565216,junior,junior
+42,female,master's,sales manager,13,130000,0.30952380952380953,senior,mid_age
+26,male,high school,digital marketing manager,2,40000,0.07692307692307693,junior,junior
+32,female,bachelor's,content marketing manager,7,90000,0.21875,mid,mid_age
+27,male,phd,sales representative,4,55000,0.14814814814814814,mid,junior
+50,female,master's,senior product marketing manager,18,180000,0.36,senior,senior
+36,male,bachelor's,junior sales representative,3,45000,0.08333333333333333,mid,mid_age
+48,female,phd,director of marketing,19,190000,0.3958333333333333,senior,senior
+31,male,high school,sales associate,3,50000,0.0967741935483871,mid,mid_age
+29,female,bachelor's,financial manager,4,55000,0.13793103448275862,mid,junior
+45,male,master's,marketing manager,13,130000,0.28888888888888886,senior,senior
+25,female,high school,sales executive,1,35000,0.04,junior,junior
+41,male,bachelor's,content marketing manager,12,120000,0.2926829268292683,senior,mid_age
+35,female,phd,senior product marketing manager,9,95000,0.2571428571428571,mid,mid_age
+23,male,bachelor's,sales representative,1,35000,0.043478260869565216,junior,junior
+42,female,master's,digital marketing manager,14,140000,0.3333333333333333,senior,mid_age
+26,male,high school,sales manager,2,40000,0.07692307692307693,junior,junior
+32,female,bachelor's,director of marketing,8,80000,0.25,mid,mid_age
+27,male,phd,marketing manager,4,55000,0.14814814814814814,mid,junior
+50,female,master's,content marketing manager,19,190000,0.38,senior,senior
+36,male,bachelor's,sales director,6,75000,0.16666666666666666,mid,mid_age
+48,female,phd,senior product marketing manager,17,170000,0.3541666666666667,senior,senior
+37,male,master's,marketing manager,11,110000,0.2972972972972973,senior,mid_age
+26,female,bachelor's,sales representative,2,40000,0.07692307692307693,junior,junior
+42,male,phd,content marketing manager,15,150000,0.35714285714285715,senior,mid_age
+33,female,high school,sales executive,4,55000,0.12121212121212122,mid,mid_age
+29,male,bachelor's,sales manager,5,70000,0.1724137931034483,mid,junior
+45,female,master's,director of marketing,16,160000,0.35555555555555557,senior,senior
+24,male,high school,sales associate,1,35000,0.041666666666666664,junior,junior
+39,female,bachelor's,financial manager,10,100000,0.2564102564102564,senior,mid_age
+31,male,phd,senior product marketing manager,7,90000,0.22580645161290322,mid,mid_age
+27,female,master's,digital marketing manager,3,50000,0.1111111111111111,mid,junior
+43,male,bachelor's,content marketing manager,14,140000,0.32558139534883723,senior,mid_age
+28,female,high school,sales representative,2,40000,0.07142857142857142,junior,junior
+50,male,phd,marketing manager,18,180000,0.36,senior,senior
+35,female,bachelor's,sales executive,7,90000,0.2,mid,mid_age
+23,male,bachelor's,sales manager,1,35000,0.043478260869565216,junior,junior
+41,female,master's,director of marketing,12,120000,0.2926829268292683,senior,mid_age
+26,male,high school,financial manager,3,45000,0.11538461538461539,mid,junior
+32,female,bachelor's,sales director,8,80000,0.25,mid,mid_age
+50,female,master's,content marketing manager,18,180000,0.36,senior,senior
+36,male,bachelor's,sales representative,6,75000,0.16666666666666666,mid,mid_age
+29,female,bachelor's,sales director,5,70000,0.1724137931034483,mid,junior
+45,male,master's,director of marketing,15,150000,0.3333333333333333,senior,senior
+38,male,master's,marketing manager,12,120000,0.3157894736842105,senior,mid_age
+27,female,bachelor's,sales representative,3,45000,0.1111111111111111,mid,junior
+43,male,phd,content marketing manager,16,160000,0.37209302325581395,senior,mid_age
+34,female,high school,sales executive,5,70000,0.14705882352941177,mid,mid_age
+30,male,bachelor's,sales manager,6,75000,0.2,mid,mid_age
+46,female,master's,director of marketing,17,170000,0.3695652173913043,senior,senior
+40,female,bachelor's,financial manager,11,110000,0.275,senior,mid_age
+32,male,phd,senior product marketing manager,8,80000,0.25,mid,mid_age
+28,female,master's,digital marketing manager,4,55000,0.14285714285714285,mid,junior
+44,male,bachelor's,content marketing manager,15,150000,0.3409090909090909,senior,mid_age
+51,male,phd,marketing manager,19,190000,0.37254901960784315,senior,senior
+36,female,bachelor's,sales executive,8,80000,0.2222222222222222,mid,mid_age
+24,male,bachelor's,sales manager,1,35000,0.041666666666666664,junior,junior
+27,male,high school,financial manager,3,45000,0.1111111111111111,mid,junior
+33,female,bachelor's,sales director,7,90000,0.21212121212121213,mid,mid_age
+28,male,phd,marketing manager,4,55000,0.14285714285714285,mid,junior
+51,female,master's,content marketing manager,19,190000,0.37254901960784315,senior,senior
+37,male,bachelor's,sales representative,7,90000,0.1891891891891892,mid,mid_age
+49,female,phd,senior product marketing manager,20,200000,0.40816326530612246,senior,senior
+32,male,high school,junior sales representative,3,40000,0.09375,mid,mid_age
+30,female,bachelor's,sales director,5,70000,0.16666666666666666,mid,mid_age
+46,male,master's,director of marketing,16,160000,0.34782608695652173,senior,senior
+26,female,high school,sales associate,1,35000,0.038461538461538464,junior,junior
+42,male,bachelor's,financial manager,13,130000,0.30952380952380953,senior,mid_age
+36,female,phd,marketing manager,9,95000,0.25,mid,mid_age
+24,male,bachelor's,sales executive,1,35000,0.041666666666666664,junior,junior
+43,female,master's,sales manager,14,140000,0.32558139534883723,senior,mid_age
+27,male,high school,digital marketing manager,2,40000,0.07407407407407407,junior,junior
+33,female,bachelor's,content marketing manager,7,90000,0.21212121212121213,mid,mid_age
+28,male,phd,sales representative,4,55000,0.14285714285714285,mid,junior
+51,female,master's,senior product marketing manager,19,190000,0.37254901960784315,senior,senior
+37,male,bachelor's,junior sales representative,6,75000,0.16216216216216217,mid,mid_age
+49,female,phd,director of marketing,20,200000,0.40816326530612246,senior,senior
+32,male,high school,sales associate,3,50000,0.09375,mid,mid_age
+30,female,bachelor's,financial manager,4,55000,0.13333333333333333,mid,mid_age
+46,male,master's,marketing manager,14,140000,0.30434782608695654,senior,senior
+26,female,high school,sales executive,1,35000,0.038461538461538464,junior,junior
+42,male,bachelor's,content marketing manager,13,130000,0.30952380952380953,senior,mid_age
+36,female,phd,senior product marketing manager,10,100000,0.2777777777777778,senior,mid_age
+24,male,bachelor's,sales representative,1,35000,0.041666666666666664,junior,junior
+43,female,master's,digital marketing manager,15,150000,0.3488372093023256,senior,mid_age
+27,male,high school,sales manager,2,40000,0.07407407407407407,junior,junior
+33,female,bachelor's,director of marketing,8,80000,0.24242424242424243,mid,mid_age
+37,male,bachelor's,sales director,7,90000,0.1891891891891892,mid,mid_age
+30,female,bachelor's,sales manager,5,70000,0.16666666666666666,mid,mid_age

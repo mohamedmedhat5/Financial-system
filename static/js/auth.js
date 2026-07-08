@@ -1,0 +1,2 @@
+const validateForm=form=>{const error=form.querySelector("[data-form-error]");let message="";if(!form.checkValidity())message="Complete all required fields correctly.";const pass=form.querySelector("[name=password]");const confirm=form.querySelector("[name=confirmPassword]");if(pass&&confirm&&pass.value!==confirm.value)message="Passwords must match.";if(error)error.textContent=message;return !message};
+["loginForm","registerForm"].forEach(id=>on($("#"+id),"submit",e=>{if(!validateForm(e.currentTarget))e.preventDefault()}));

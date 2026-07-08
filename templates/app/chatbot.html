@@ -1,0 +1,24 @@
+{% extends "layout/base.html" %}
+{% block styles %}<link rel="stylesheet" href="{{ url_for('static', filename='css/chatbot.css') }}">{% endblock %}
+{% block content %}
+<section class="chat-layout">
+  <aside class="card prompt-panel">
+    <p class="eyebrow">Suggested Questions</p>
+    <button>How can I reduce expenses this month?</button><button>What should my emergency fund target be?</button><button>Analyze my recurring bills.</button><button>Can I afford a new investment?</button>
+  </aside>
+  <section class="card chat-card" aria-label="AI assistant conversation">
+    <div class="conversation" id="conversation">
+      {% for item in conversation_history %}
+      <article class="message {{ 'user' if item.role == 'user' else 'bot' }}"><strong>{{ user.name if item.role == 'user' else 'FinWise AI' }}</strong><p>{{ item.content }}</p></article>
+      {% else %}
+      <article class="message bot"><strong>FinWise AI</strong><p>Hello {{ user.name }}. I can review your spending, forecasts, and financial goals.</p></article>
+      {% endfor %}
+    </div>
+    <form class="chat-input" id="chatForm">
+      <input id="chatMessage" placeholder="Ask about budgets, predictions, reports, or goals" autocomplete="off">
+      <button class="primary-button" type="submit">Send</button>
+    </form>
+  </section>
+</section>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='js/chatbot.js') }}"></script>{% endblock %}

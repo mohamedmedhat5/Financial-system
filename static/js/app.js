@@ -1,0 +1,10 @@
+const $=(s,p=document)=>p.querySelector(s),$$=(s,p=document)=>[...p.querySelectorAll(s)];
+const on=(el,ev,fn)=>el&&el.addEventListener(ev,fn);
+const setDate=()=>{const el=$("#currentDate");if(el)el.textContent=new Intl.DateTimeFormat("en-US",{weekday:"short",month:"short",day:"numeric",year:"numeric"}).format(new Date())};
+const toggleNav=()=>{$("#sidebar")?.classList.toggle("is-open");$("#overlay")?.classList.toggle("is-open")};
+const initModals=()=>{$$("[data-open-modal]").forEach(b=>on(b,"click",()=>$("#"+b.dataset.openModal)?.classList.add("is-open")));$$("[data-close-modal],.modal").forEach(el=>on(el,"click",e=>{if(e.target===el||el.hasAttribute("data-close-modal"))el.closest(".modal")?.classList.remove("is-open")}))};
+const fillBars=()=>$$("[data-bars]").forEach(w=>{w.innerHTML=w.dataset.bars.split(",").map(v=>`<span style="height:${v}%"></span>`).join("")});
+const filterRows=(input,table)=>{const q=input.value.toLowerCase();$$("tbody tr",table).forEach(r=>r.hidden=!r.textContent.toLowerCase().includes(q))};
+const downloadCsv=(name,rows)=>{const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([rows.map(r=>r.join(",")).join("\n")],{type:"text/csv"}));a.download=name;a.click();URL.revokeObjectURL(a.href)};
+const escapeHTML=s=>s.replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[m]));
+on($("#menuToggle"),"click",toggleNav);on($("#overlay"),"click",toggleNav);setDate();initModals();fillBars();

@@ -1,0 +1,30 @@
+.dashboard-grid{
+    display:grid;
+    grid-template-columns:repeat(12,1fr);
+    gap:18px;
+    align-items:start;
+}
+
+.dashboard-grid>.stat-card{
+    grid-column:span 3;
+}
+
+.dashboard-grid>.wide{
+    grid-column:1 / span 8;
+}
+
+.dashboard-grid>.chart-card:not(.wide){
+    grid-column:9 / span 4;
+}
+
+.dashboard-grid>.card:not(.stat-card):not(.chart-card):not(.health-card):not(.transactions-card){
+    grid-column:1 / span 4;
+}
+
+.health-card{
+    grid-column:5 / span 4;
+}
+
+.transactions-card{
+    grid-column:1 / -1;
+}

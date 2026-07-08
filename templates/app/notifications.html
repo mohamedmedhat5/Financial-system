@@ -1,0 +1,13 @@
+{% extends "layout/base.html" %}
+{% block styles %}<link rel="stylesheet" href="{{ url_for('static', filename='css/notifications.css') }}">{% endblock %}
+{% block content %}
+<section class="notifications-page">
+  <div class="stats-row"><article class="card stat-card"><span>Unread</span><strong>{{ unread_notifications }}</strong></article><article class="card stat-card"><span>Budget Alerts</span><strong>{{ budget_alerts }}</strong></article><article class="card stat-card"><span>AI Insights</span><strong>{{ ai_alerts }}</strong></article></div>
+  <section class="card notification-list">
+    {% for note in notifications_list %}
+    <article class="notification-item"><span class="status {{ note.type }}">{{ note.type }}</span><div><h2>{{ note.title }}</h2><p class="muted">{{ note.body }}</p></div><button class="ghost-button small">Mark read</button></article>
+    {% endfor %}
+  </section>
+</section>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='js/notifications.js') }}"></script>{% endblock %}

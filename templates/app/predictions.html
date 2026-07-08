@@ -1,0 +1,411 @@
+{% extends "layout/base.html" %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/predictions.css') }}">
+{% endblock %}
+
+{% block content %}
+
+<article class="card prediction-card">
+
+    <div class="card-header">
+
+        <div>
+
+            <p class="eyebrow">AI Regression Model</p>
+
+            <h2>Salary Prediction</h2>
+
+        </div>
+
+        <span class="status good">
+            Ready
+        </span>
+
+    </div>
+
+    <p class="muted">
+
+        Estimate your annual salary based on your education and work experience.
+
+    </p>
+
+    <div class="prediction-form">
+
+        <h4 class="form-title">Personal Information</h4>
+
+        <label>Age</label>
+<input
+    id="salary-age"
+    type="number"
+    min="18"
+    max="80"
+    placeholder="30"
+>
+
+<label>Gender</label>
+<select id="salary-gender">
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="other">Other</option>
+</select>
+
+<label>Education Level</label>
+<select id="salary-education">
+    <option value="high school">High School</option>
+    <option value="bachelor's">Bachelor's</option>
+    <option value="master's">Master's</option>
+    <option value="phd">PhD</option>
+</select>
+
+<label>Job Title</label>
+<input
+    id="salary-job"
+    list="jobTitles"
+    placeholder="Software Engineer"
+>
+
+<datalist id="jobTitles">
+    {% for item in job_titles %}
+    <option value="{{ item }}"></option>
+    {% endfor %}
+</datalist>
+
+<label>Years of Experience</label>
+<input
+    id="salary-exp"
+    type="number"
+    min="0"
+    step="0.5"
+    placeholder="5"
+>
+
+    </div>
+
+    <button
+
+        type="button"
+
+        class="primary-button predict-button"
+
+        data-model="salary">
+
+        Predict Salary
+
+    </button>
+
+    <div class="prediction-result salary-result">
+
+        <small>Estimated Annual Salary</small>
+
+        <h2>—</h2>
+
+    </div>
+
+</article>
+
+
+<article class="card prediction-card">
+
+    <div class="card-header">
+
+        <div>
+
+            <p class="eyebrow">AI Regression Model</p>
+
+            <h2>Monthly Expense Prediction</h2>
+
+        </div>
+
+        <span class="status good">
+            Ready
+        </span>
+
+    </div>
+
+    <p class="muted">
+        Predict your expected monthly expenses.
+    </p>
+
+    <div class="prediction-form">
+
+        <h4 class="form-title">Expense Information</h4>
+
+        <label>Year</label>
+        <input
+            id="expense-year"
+            type="number"
+            value="2026"
+        >
+
+        <label>Month</label>
+        <input
+            id="expense-month"
+            type="number"
+            min="1"
+            max="12"
+            placeholder="1 - 12"
+        >
+
+        <label>Monthly Income</label>
+        <input
+            id="expense-income"
+            type="number"
+            placeholder="5000"
+        >
+
+        <label>Income Bracket</label>
+        <input
+            id="expense-income-bracket"
+            type="number"
+            placeholder="1 - 5"
+        >
+
+        <label>Festival</label>
+        <select id="expense-festival">
+
+            <option value="None">None</option>
+
+            <option value="Christmas">Christmas</option>
+
+            <option value="New Year's Eve">
+                New Year's Eve
+            </option>
+
+            <option value="Christmas; Hanukkah; New Year's Eve">
+                Christmas + Hanukkah + New Year's Eve
+            </option>
+
+        </select>
+
+        <label>Festival Count</label>
+        <input
+            id="expense-festival-count"
+            type="number"
+            min="0"
+            value="0"
+        >
+
+    </div>
+
+    <button
+        type="button"
+        class="primary-button predict-button"
+        data-model="expense">
+
+        Predict Expense
+
+    </button>
+
+    <div class="prediction-result expense-result">
+
+        <small>Estimated Monthly Expense</small>
+
+        <h2>—</h2>
+
+    </div>
+
+</article>
+
+
+<article class="card prediction-card">
+
+    <div class="card-header">
+
+        <div>
+            <p class="eyebrow">AI Regression Model</p>
+            <h2>Cost of Living Prediction</h2>
+        </div>
+
+        <span class="status good">
+            Ready
+        </span>
+
+    </div>
+
+    <p class="muted">
+        Estimate the Cost of Living Index using economic indicators.
+    </p>
+
+    <div class="prediction-form">
+
+        <h4 class="form-title">Economic Indicators</h4>
+
+        <label>Cost of Living Index</label>
+        <input
+            id="cost-index"
+            type="number"
+            step="0.01"
+            placeholder="45.8"
+        >
+
+        <label>Rent Index</label>
+        <input
+            id="rent-index"
+            type="number"
+            step="0.01"
+            placeholder="18.4"
+        >
+
+        <label>Cost of Living + Rent Index</label>
+        <input
+            id="living-rent"
+            type="number"
+            step="0.01"
+            placeholder="32.6"
+        >
+
+        <label>Groceries Index</label>
+        <input
+            id="groceries-index"
+            type="number"
+            step="0.01"
+            placeholder="40.2"
+        >
+
+        <label>Restaurant Price Index</label>
+        <input
+            id="restaurant-index"
+            type="number"
+            step="0.01"
+            placeholder="36.7"
+        >
+
+        <label>Local Purchasing Power Index</label>
+        <input
+            id="purchasing-power"
+            type="number"
+            step="0.01"
+            placeholder="82.5"
+        >
+
+        <label>Income To Cost Ratio</label>
+        <input
+            id="income-ratio"
+            type="number"
+            step="0.01"
+            placeholder="1.35"
+        >
+
+    </div>
+
+    <button
+        type="button"
+        class="primary-button predict-button"
+        data-model="cost">
+
+        Predict Cost Of Living
+
+    </button>
+
+    <div class="prediction-result cost-result">
+
+        <small>Estimated Cost of Living Index</small>
+
+        <h2>—</h2>
+
+    </div>
+
+</article>
+
+
+<article class="card prediction-card">
+
+    <div class="card-header">
+
+        <div>
+
+            <p class="eyebrow">AI Regression Model</p>
+
+            <h2>Inflation Prediction</h2>
+
+        </div>
+
+        <span class="status good">
+            Ready
+        </span>
+
+    </div>
+
+    <p class="muted">
+        Predict the inflation rate using historical inflation indicators.
+    </p>
+
+    <div class="prediction-form">
+
+        <h4 class="form-title">Inflation Indicators</h4>
+
+        <label>Prediction Year</label>
+        <input
+            id="inflation-year"
+            type="number"
+            value="2026"
+        >
+
+        <label>Previous Year Inflation (%)</label>
+        <input
+            id="lag-1"
+            type="number"
+            step="0.01"
+            placeholder="3.5"
+        >
+
+        <label>Inflation Two Years Ago (%)</label>
+        <input
+            id="lag-2"
+            type="number"
+            step="0.01"
+            placeholder="4.1"
+        >
+
+        <label>Inflation Three Years Ago (%)</label>
+        <input
+            id="lag-3"
+            type="number"
+            step="0.01"
+            placeholder="5.0"
+        >
+
+        <label>Average Inflation (Last 3 Years)</label>
+        <input
+            id="rolling-mean"
+            type="number"
+            readonly
+        >
+
+        <label>Inflation Volatility (Std)</label>
+        <input
+            id="rolling-std"
+            type="number"
+            readonly
+        >
+
+    </div>
+
+    <button
+        type="button"
+        class="primary-button predict-button"
+        data-model="inflation">
+
+        Predict Inflation
+
+    </button>
+
+    <div class="prediction-result inflation-result">
+
+        <small>Predicted Inflation Rate</small>
+
+        <h2>—</h2>
+
+    </div>
+
+</article>
+
+
+{% endblock %}
+
+{% block scripts %}
+
+<script src="{{ url_for('static', filename='js/predictions.js') }}"></script>
+
+{% endblock %}

@@ -1,0 +1,212 @@
+{% extends "layout/base.html" %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/dashboard.css') }}">
+{% endblock %}
+
+{% block content %}
+
+<section class="dashboard-grid">
+
+  <article class="card stat-card">
+    <span>Current Balance</span>
+    <strong>{{ summary.current_balance }}</strong>
+    <em class="trend">Live</em>
+  </article>
+
+  <article class="card stat-card">
+    <span>Income</span>
+    <strong>{{ summary.income }}</strong>
+    <em class="trend">Live</em>
+  </article>
+
+  <article class="card stat-card">
+    <span>Expenses</span>
+    <strong>{{ summary.expenses }}</strong>
+    <em class="trend is-down">Live</em>
+  </article>
+
+  <article class="card stat-card">
+    <span>Savings</span>
+    <strong>{{ summary.savings }}</strong>
+    <em class="trend">Live</em>
+  </article>
+
+  <article class="card chart-card wide">
+    <div class="card-header">
+      <div>
+        <p class="eyebrow">Cash Flow</p>
+        <h2>Monthly Cash Flow</h2>
+      </div>
+
+      <button class="ghost-button">
+        View Report
+      </button>
+    </div>
+
+    <div class="chart-placeholder">
+      <div class="bars" data-bars="{{ cash_flow_bars }}"></div>
+    </div>
+  </article>
+
+  <article class="card chart-card">
+    <div class="card-header">
+      <div>
+        <p class="eyebrow">Categories</p>
+        <h2>Expense Allocation</h2>
+      </div>
+    </div>
+
+    <div class="donut">
+      <span>{{ summary.category_breakdown|length }}</span>
+    </div>
+
+    <ul class="legend">
+    {% for name, amount in summary.category_breakdown.items() %}
+      {% if loop.index <= 8 %}
+        <li><b></b>{{ name }}</li>
+      {% endif %}
+    {% else %}
+      <li><b></b>No expenses</li>
+    {% endfor %}
+    </ul>
+
+    {% if summary.category_breakdown|length > 8 %}
+    <p class="muted">+ {{ summary.category_breakdown|length - 8 }} more categories</p>
+    {% endif %}
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <div>
+        <p class="eyebrow">Goal</p>
+        <h2>Savings Goal</h2>
+      </div>
+
+      <strong>74%</strong>
+    </div>
+
+    <div class="progress">
+      <span style="width:74%"></span>
+    </div>
+
+    <p class="muted">
+      You are {{ savings_goal_delta|default('$2,600') }} away from the yearly target.
+    </p>
+  </article>
+
+  <article class="card health-card">
+    <p class="eyebrow">Financial Health</p>
+
+    <strong>{{ financial_health|default('Excellent') }}</strong>
+
+    <p class="muted">
+      Low risk, strong reserves and balanced spending.
+    </p>
+  </article>
+
+
+  <!-- ================= Analytics ================= -->
+
+  <article class="card transactions-card">
+
+    <div class="card-header">
+      <div>
+        <p class="eyebrow">Recent</p>
+        <h2>Latest Transactions</h2>
+      </div>
+
+      <a class="ghost-button" href="{{ url_for('transactions') }}">
+        View All
+      </a>
+    </div>
+
+    <div class="mini-list">
+
+      {% for tx in summary.recent_transactions %}
+
+      <p>
+        <span>{{ tx.note or tx.category }}</span>
+
+        <strong>
+          {{ '+' if tx.type=='income' else '-' }}
+          {{ money(tx.amount) }}
+        </strong>
+      </p>
+
+      {% else %}
+
+      <p>
+        <span>No transactions</span>
+        <strong>$0.00</strong>
+      </p>
+
+      {% endfor %}
+
+    </div>
+
+  </article>
+
+</section>
+
+<button
+    class="fab"
+    type="button"
+    data-open-modal="quickAdd">
+    +
+</button>
+
+<div class="modal" id="quickAdd">
+
+    <form class="modal-card">
+
+        <div class="card-header">
+
+            <h2>Add Transaction</h2>
+
+            <button
+                class="icon-button"
+                type="button"
+                data-close-modal>
+
+                ×
+
+            </button>
+
+        </div>
+
+        <div class="form-grid">
+
+            <input placeholder="Name">
+
+            <input placeholder="Amount">
+
+            <select>
+
+                <option>Income</option>
+
+                <option>Expense</option>
+
+            </select>
+
+            <input type="date">
+
+        </div>
+
+        <button
+            class="primary-button full-row"
+            type="submit">
+
+            Save
+
+        </button>
+
+    </form>
+
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+{% endblock %}

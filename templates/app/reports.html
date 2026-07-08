@@ -1,0 +1,14 @@
+{% extends "layout/base.html" %}
+{% block styles %}<link rel="stylesheet" href="{{ url_for('static', filename='css/reports.css') }}">{% endblock %}
+{% block content %}
+<section class="reports-page">
+  <div class="report-actions"><button class="primary-button">Export PDF</button><button class="secondary-button" id="reportCsv">Export CSV</button></div>
+  <div class="stats-row"><article class="card stat-card"><span>Monthly Report</span><strong>{{ monthly_report|default('$4,260 net') }}</strong></article><article class="card stat-card"><span>Yearly Report</span><strong>{{ yearly_report|default('$48,900 saved') }}</strong></article><article class="card stat-card"><span>Financial Summary</span><strong>{{ summary_score|default('92/100') }}</strong></article></div>
+  <section class="report-grid">
+    <article class="card chart-card wide"><div class="card-header"><h2>Income vs Expenses</h2><span class="status good">{{ financial_health }}</span></div><div class="chart-placeholder"><div class="bars" data-bars="{{ cash_flow_bars }}"></div></div></article>
+    <article class="card chart-card"><div class="card-header"><h2>Category Share</h2></div><div class="donut"><span>{{ category_breakdown|length }}</span></div></article>
+    <article class="card table-card wide"><div class="card-header"><h2>Statistics</h2></div><div class="table-wrap"><table><thead><tr><th>Metric</th><th>Current</th><th>Change</th></tr></thead><tbody><tr><td>Income</td><td>{{ income }}</td><td>Live</td></tr><tr><td>Expenses</td><td>{{ expenses }}</td><td>Live</td></tr><tr><td>Savings</td><td>{{ savings }}</td><td>Live</td></tr></tbody></table></div></article>
+  </section>
+</section>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='js/reports.js') }}"></script>{% endblock %}

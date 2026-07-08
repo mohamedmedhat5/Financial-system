@@ -1,0 +1,49 @@
+{% extends "layout/base.html" %}
+{% block styles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/auth.css') }}">
+{% endblock %}
+{% block auth_content %}
+<main class="auth-shell">
+  <section class="auth-panel">
+    <a class="brand" href="{{ url_for('login') }}">
+      <span class="brand-mark">F</span>
+      <span>FinWise AI</span>
+    </a>
+    <div class="auth-copy">
+      <p class="eyebrow">Personalized money intelligence</p>
+      <h1>Build a financial profile your AI advisor can understand.</h1>
+      <p>Connect your goals, income, and preferences to a frontend ready for Flask, MySQL, and ML models.</p>
+    </div>
+    <div class="goal-card">
+      <span>Projected savings</span>
+      <strong>{{ savings }}</strong>
+      <small>Based on your selected goal and spending pattern.</small>
+    </div>
+  </section>
+  <section class="auth-card register-card" aria-labelledby="registerTitle">
+    <div class="auth-heading">
+      <p class="eyebrow">Start smarter</p>
+      <h2 id="registerTitle">Create your account</h2>
+    </div>
+    <form class="auth-form form-grid" id="registerForm" method="post" novalidate>
+      <label>Full Name<input type="text" name="name" placeholder="Full name" required></label>
+      <label>Email<input type="email" name="email" placeholder="you@example.com" required></label>
+      <label>Password<input type="password" name="password" minlength="8" required></label>
+      <label>Confirm Password<input type="password" name="confirmPassword" minlength="8" required></label>
+      <label>Country<input type="text" name="country" placeholder="Egypt" required></label>
+      <label>Occupation<input type="text" name="occupation" placeholder="Software Engineer" required></label>
+      <label>Monthly Salary (USD)<input type="number" name="salary" min="1" placeholder="3500" required></label>
+      <label>Preferred Currency<select name="currency" required><option value="USD">USD ($)</option></select></label>
+      <label>Financial Goal<select name="goal" required><option>Save More Money</option><option>Reduce Expenses</option><option>Investment Planning</option><option>Debt Reduction</option><option>Budget Management</option></select></label>
+      <label>Financial Experience<select name="experience" required><option>Beginner</option><option>Intermediate</option><option>Advanced</option></select></label>
+      <label class="check-label full-row"><input type="checkbox" name="terms" required>I agree to the terms and privacy policy</label>
+      <p class="form-error full-row" data-form-error>{{ auth_error|default('') }}</p>
+      <button class="primary-button full-row" type="submit">Create Account</button>
+      <p class="switch-link full-row">Already have an account? <a href="{{ url_for('login') }}">Log in</a></p>
+    </form>
+  </section>
+</main>
+{% endblock %}
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/auth.js') }}"></script>
+{% endblock %}

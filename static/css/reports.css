@@ -1,0 +1,1 @@
+.reports-page{display:grid;gap:18px}.report-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px}.report-grid .wide{grid-column:span 8}.report-grid .chart-card:not(.wide){grid-column:span 4}.table-card{grid-column:span 12}

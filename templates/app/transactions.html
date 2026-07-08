@@ -1,0 +1,52 @@
+{% extends "layout/base.html" %}
+{% block styles %}<link rel="stylesheet" href="{{ url_for('static', filename='css/transactions.css') }}">{% endblock %}
+{% block content %}
+<section class="transactions-page">
+  <div class="stats-row">
+    <article class="card stat-card"><span>Total Inflow</span><strong>{{ total_inflow }}</strong></article>
+    <article class="card stat-card"><span>Total Outflow</span><strong>{{ total_outflow }}</strong></article>
+    <article class="card stat-card"><span>Net Change</span><strong>{{ net_change }}</strong></article>
+  </div>
+  <section class="card">
+    <div class="toolbar">
+      <input class="field" id="transactionSearch" type="search" placeholder="Search transactions">
+      <select id="typeFilter"><option value="all">All Types</option><option>Income</option><option>Expense</option></select>
+      <select id="categoryFilter"><option value="all">All Categories</option>{% for category in categories %}<option>{{ category }}</option>{% endfor %}</select>
+      <button class="secondary-button" id="exportCsv" type="button">Export CSV</button>
+      <button class="primary-button" data-open-modal="transactionModal" type="button">Add Transaction</button>
+    </div>
+    <div class="table-wrap">
+      <table id="transactionsTable">
+        <thead><tr><th data-sort="date">Date</th><th data-sort="name">Name</th><th>Category</th><th>Type</th><th data-sort="amount">Amount</th><th>Actions</th></tr></thead>
+        <tbody>
+          {% for tx in transactions %}
+          <tr data-type="{{ tx.type|title }}" data-category="{{ tx.category or 'Other' }}">
+            <td>{{ tx.date }}</td><td>{{ tx.note or tx.category }}</td><td>{{ tx.category or 'Other' }}</td>
+            <td><span class="status {{ 'good' if tx.type == 'income' else 'risk' }}">{{ tx.type|title }}</span></td>
+            <td>{{ money(tx.amount) }}</td>
+            <td><form method="post" action="{{ url_for('delete_transaction', transaction_id=tx.id) }}"><button class="ghost-button small">Delete</button></form></td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </section>
+</section>
+<button class="fab" type="button" data-open-modal="transactionModal">+</button>
+<div class="modal" id="transactionModal">
+  <form class="modal-card" method="post">
+    <div class="card-header"><h2>Transaction</h2><button class="icon-button" type="button" data-close-modal>x</button></div>
+    <div class="form-grid">
+      <input required name="name" placeholder="Name">
+      <input required name="amount" type="number" step="0.01" placeholder="Amount">
+      <select name="type"><option>Income</option><option>Expense</option></select>
+      <input required name="category" list="categoryOptions" placeholder="Category">
+      <datalist id="categoryOptions">{% for category in categories %}<option value="{{ category }}">{% endfor %}</datalist>
+      <input name="date" type="date" required>
+      <textarea name="note" class="full-row" placeholder="Notes"></textarea>
+    </div>
+    <button class="primary-button full-row" type="submit">Save Transaction</button>
+  </form>
+</div>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='js/transactions.js') }}"></script>{% endblock %}
