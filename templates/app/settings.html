@@ -3,7 +3,7 @@
 {% block content %}
 <form class="settings-grid" method="post">
   <article class="card setting-card"><div class="card-header"><h2>Currency</h2></div><label class="setting-row"><span>USD ($)</span><select name="currency"><option value="USD">USD ($)</option></select></label></article>
-  <article class="card setting-card"><div class="card-header"><h2>Budget</h2></div><label class="setting-row"><span>Monthly Budget</span><input name="monthly_budget" type="number" step="0.01" value="{{ user_settings.monthly_budget or '' }}"></label><label class="setting-row"><span>Savings Goal</span><input name="savings_goal" type="number" step="0.01" value="{{ user_settings.savings_goal or '' }}"></label></article>
+  <article class="card setting-card"><div class="card-header"><h2>Budget</h2></div><label class="setting-row"><span>Monthly Budget</span><input name="monthly_budget" type="number" step="0.01" value="{{ user_settings.monthly_budget or '' }}"></label></article>
   <article class="card setting-card"><div class="card-header"><h2>Notifications</h2></div><label class="setting-row"><span>Email alerts</span><input name="notifications_enabled" type="checkbox" {{ 'checked' if user_settings.notifications_enabled }}></label></article>
   <article class="card setting-card"><button class="primary-button" type="submit">Save Settings</button></article>
 </form>
